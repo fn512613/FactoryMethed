@@ -1,0 +1,15 @@
+//
+//  FactoryMethed-Prefix.pch
+//  FactoryMethed
+//
+//  Created by qianpanpan on 2018/7/26.
+//  Copyright © 2018年 qianpanpan. All rights reserved.
+//
+
+#ifndef FactoryMethed_Prefix_pch
+#define FactoryMethed_Prefix_pch
+
+#import "UIMacros.h"
+
+
+#endif /* FactoryMethed_Prefix_pch */
