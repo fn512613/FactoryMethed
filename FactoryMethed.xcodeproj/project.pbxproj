@@ -94,7 +94,6 @@
 		CD409C422109D6EB00B647AE /* BaseTableViewCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCellModel.m; sourceTree = "<group>"; };
 		CD409C432109D6EB00B647AE /* BaseTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewDelegate.h; sourceTree = "<group>"; };
 		CD409C442109D6EB00B647AE /* BaseTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewDelegate.m; sourceTree = "<group>"; };
-		CD409C452109D6EB00B647AE /* NYBaseTableViewCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYBaseTableViewCellModel.h; sourceTree = "<group>"; };
 		CD409C5B2109D86500B647AE /* FactoryMethed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FactoryMethed-Prefix.pch"; sourceTree = "<group>"; };
 		CD409C5E2109D8A100B647AE /* UIMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMacros.h; sourceTree = "<group>"; };
 		CD409C63210AB38800B647AE /* FMImageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMImageTableViewCell.h; sourceTree = "<group>"; };
@@ -179,7 +178,6 @@
 				CD409C422109D6EB00B647AE /* BaseTableViewCellModel.m */,
 				CD409C432109D6EB00B647AE /* BaseTableViewDelegate.h */,
 				CD409C442109D6EB00B647AE /* BaseTableViewDelegate.m */,
-				CD409C452109D6EB00B647AE /* NYBaseTableViewCellModel.h */,
 			);
 			path = BaseTableView;
 			sourceTree = "<group>";
