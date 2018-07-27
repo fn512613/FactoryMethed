@@ -32,6 +32,11 @@
 		CD409C582109D6EB00B647AE /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C402109D6EB00B647AE /* BaseTableViewCell.m */; };
 		CD409C592109D6EB00B647AE /* BaseTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C422109D6EB00B647AE /* BaseTableViewCellModel.m */; };
 		CD409C5A2109D6EB00B647AE /* BaseTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C442109D6EB00B647AE /* BaseTableViewDelegate.m */; };
+		CD409C66210AB38800B647AE /* FMImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C64210AB38800B647AE /* FMImageTableViewCell.m */; };
+		CD409C67210AB38800B647AE /* FMImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD409C65210AB38800B647AE /* FMImageTableViewCell.xib */; };
+		CD409C6A210AB76200B647AE /* FMImageTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C69210AB76200B647AE /* FMImageTableViewCellModel.m */; };
+		CD409C6E210AB80500B647AE /* DAUITool.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C6D210AB80500B647AE /* DAUITool.m */; };
+		CD409C71210AB8BA00B647AE /* FMMainTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C70210AB8BA00B647AE /* FMMainTableViewDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +97,15 @@
 		CD409C452109D6EB00B647AE /* NYBaseTableViewCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYBaseTableViewCellModel.h; sourceTree = "<group>"; };
 		CD409C5B2109D86500B647AE /* FactoryMethed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FactoryMethed-Prefix.pch"; sourceTree = "<group>"; };
 		CD409C5E2109D8A100B647AE /* UIMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMacros.h; sourceTree = "<group>"; };
+		CD409C63210AB38800B647AE /* FMImageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMImageTableViewCell.h; sourceTree = "<group>"; };
+		CD409C64210AB38800B647AE /* FMImageTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMImageTableViewCell.m; sourceTree = "<group>"; };
+		CD409C65210AB38800B647AE /* FMImageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FMImageTableViewCell.xib; sourceTree = "<group>"; };
+		CD409C68210AB76200B647AE /* FMImageTableViewCellModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMImageTableViewCellModel.h; sourceTree = "<group>"; };
+		CD409C69210AB76200B647AE /* FMImageTableViewCellModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMImageTableViewCellModel.m; sourceTree = "<group>"; };
+		CD409C6C210AB80500B647AE /* DAUITool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAUITool.h; sourceTree = "<group>"; };
+		CD409C6D210AB80500B647AE /* DAUITool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAUITool.m; sourceTree = "<group>"; };
+		CD409C6F210AB8BA00B647AE /* FMMainTableViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMMainTableViewDelegate.h; sourceTree = "<group>"; };
+		CD409C70210AB8BA00B647AE /* FMMainTableViewDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMMainTableViewDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,12 +147,10 @@
 		CD409BF42109D65800B647AE /* FactoryMethed */ = {
 			isa = PBXGroup;
 			children = (
+				CD409C602109DD4800B647AE /* VC */,
 				CD409C5F2109D90000B647AE /* AppDelegate */,
 				CD409C5C2109D8A100B647AE /* Expand */,
 				CD409C192109D6EB00B647AE /* BaseTableView */,
-				CD409BF82109D65800B647AE /* ViewController.h */,
-				CD409BF92109D65800B647AE /* ViewController.m */,
-				CD409BFB2109D65800B647AE /* Main.storyboard */,
 				CD409C5B2109D86500B647AE /* FactoryMethed-Prefix.pch */,
 				CD409BFE2109D65E00B647AE /* Assets.xcassets */,
 				CD409C002109D65E00B647AE /* LaunchScreen.storyboard */,
@@ -247,6 +259,7 @@
 		CD409C5C2109D8A100B647AE /* Expand */ = {
 			isa = PBXGroup;
 			children = (
+				CD409C6B210AB7F400B647AE /* Tool */,
 				CD409C5D2109D8A100B647AE /* Macro */,
 			);
 			path = Expand;
@@ -267,6 +280,48 @@
 				CD409BF62109D65800B647AE /* AppDelegate.m */,
 			);
 			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CD409C602109DD4800B647AE /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				CD409C622109DD5E00B647AE /* Model */,
+				CD409C612109DD5700B647AE /* View */,
+				CD409BF82109D65800B647AE /* ViewController.h */,
+				CD409BF92109D65800B647AE /* ViewController.m */,
+				CD409BFB2109D65800B647AE /* Main.storyboard */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
+		CD409C612109DD5700B647AE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD409C63210AB38800B647AE /* FMImageTableViewCell.h */,
+				CD409C64210AB38800B647AE /* FMImageTableViewCell.m */,
+				CD409C65210AB38800B647AE /* FMImageTableViewCell.xib */,
+				CD409C6F210AB8BA00B647AE /* FMMainTableViewDelegate.h */,
+				CD409C70210AB8BA00B647AE /* FMMainTableViewDelegate.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD409C622109DD5E00B647AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CD409C68210AB76200B647AE /* FMImageTableViewCellModel.h */,
+				CD409C69210AB76200B647AE /* FMImageTableViewCellModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		CD409C6B210AB7F400B647AE /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				CD409C6C210AB80500B647AE /* DAUITool.h */,
+				CD409C6D210AB80500B647AE /* DAUITool.m */,
+			);
+			path = Tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,6 +411,7 @@
 				CD409BFD2109D65800B647AE /* Main.storyboard in Resources */,
 				CD409C562109D6EB00B647AE /* BaseTitleTextFieldCell.xib in Resources */,
 				CD409C4A2109D6EB00B647AE /* BasePlaceholerCell.xib in Resources */,
+				CD409C67210AB38800B647AE /* FMImageTableViewCell.xib in Resources */,
 				CD409C532109D6EB00B647AE /* BaseTitleSwitchCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -380,15 +436,19 @@
 				CD409C4E2109D6EB00B647AE /* BaseTitleBigCellModel.m in Sources */,
 				CD409C4B2109D6EB00B647AE /* BasePlaceholerCellModel.m in Sources */,
 				CD409C572109D6EB00B647AE /* BaseTitleTextFieldCellModel.m in Sources */,
+				CD409C6A210AB76200B647AE /* FMImageTableViewCellModel.m in Sources */,
 				CD409C4C2109D6EB00B647AE /* BaseTitleBigCell.m in Sources */,
 				CD409C512109D6EB00B647AE /* BaseTitleIndicatorCellModel.m in Sources */,
 				CD409C492109D6EB00B647AE /* BasePlaceholerCell.m in Sources */,
+				CD409C71210AB8BA00B647AE /* FMMainTableViewDelegate.m in Sources */,
 				CD409C4F2109D6EB00B647AE /* BaseTitleIndicatorCell.m in Sources */,
 				CD409C582109D6EB00B647AE /* BaseTableViewCell.m in Sources */,
 				CD409C5A2109D6EB00B647AE /* BaseTableViewDelegate.m in Sources */,
 				CD409C592109D6EB00B647AE /* BaseTableViewCellModel.m in Sources */,
 				CD409C052109D65E00B647AE /* main.m in Sources */,
 				CD409BF72109D65800B647AE /* AppDelegate.m in Sources */,
+				CD409C6E210AB80500B647AE /* DAUITool.m in Sources */,
+				CD409C66210AB38800B647AE /* FMImageTableViewCell.m in Sources */,
 				CD409C522109D6EB00B647AE /* BaseTitleSwitchCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

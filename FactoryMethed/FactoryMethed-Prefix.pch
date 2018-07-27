@@ -10,6 +10,6 @@
 #define FactoryMethed_Prefix_pch
 
 #import "UIMacros.h"
-
+#import "DAUITool.h"
 
 #endif /* FactoryMethed_Prefix_pch */
