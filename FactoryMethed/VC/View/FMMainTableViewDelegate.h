@@ -8,6 +8,7 @@
 
 #import "BaseTableViewDelegate.h"
 
+@class BaseTitleSwitchCellModel;
 @protocol FMMainTableViewDelegateProtocol;
 @interface FMMainTableViewDelegate : BaseTableViewDelegate
 @property (nonatomic, weak) id<FMMainTableViewDelegateProtocol> delegate;
@@ -15,4 +16,5 @@
 
 @protocol FMMainTableViewDelegateProtocol <NSObject>
 - (void)didSelectItem:(NSIndexPath *)indexPath;
+- (void)didSelectSwitchItem:(BaseTitleSwitchCellModel *)indexPath;
 @end

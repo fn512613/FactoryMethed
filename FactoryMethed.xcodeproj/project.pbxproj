@@ -37,6 +37,7 @@
 		CD409C6A210AB76200B647AE /* FMImageTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C69210AB76200B647AE /* FMImageTableViewCellModel.m */; };
 		CD409C6E210AB80500B647AE /* DAUITool.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C6D210AB80500B647AE /* DAUITool.m */; };
 		CD409C71210AB8BA00B647AE /* FMMainTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C70210AB8BA00B647AE /* FMMainTableViewDelegate.m */; };
+		CD409C75210AEEAA00B647AE /* FMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C74210AEEAA00B647AE /* FMViewModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +106,8 @@
 		CD409C6D210AB80500B647AE /* DAUITool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAUITool.m; sourceTree = "<group>"; };
 		CD409C6F210AB8BA00B647AE /* FMMainTableViewDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMMainTableViewDelegate.h; sourceTree = "<group>"; };
 		CD409C70210AB8BA00B647AE /* FMMainTableViewDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMMainTableViewDelegate.m; sourceTree = "<group>"; };
+		CD409C73210AEEAA00B647AE /* FMViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMViewModel.h; sourceTree = "<group>"; };
+		CD409C74210AEEAA00B647AE /* FMViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMViewModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,6 +286,7 @@
 		CD409C602109DD4800B647AE /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				CD409C72210AEE8900B647AE /* ViewModel */,
 				CD409C622109DD5E00B647AE /* Model */,
 				CD409C612109DD5700B647AE /* View */,
 				CD409BF82109D65800B647AE /* ViewController.h */,
@@ -320,6 +324,15 @@
 				CD409C6D210AB80500B647AE /* DAUITool.m */,
 			);
 			path = Tool;
+			sourceTree = "<group>";
+		};
+		CD409C72210AEE8900B647AE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CD409C73210AEEAA00B647AE /* FMViewModel.h */,
+				CD409C74210AEEAA00B647AE /* FMViewModel.m */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -442,6 +455,7 @@
 				CD409C4F2109D6EB00B647AE /* BaseTitleIndicatorCell.m in Sources */,
 				CD409C582109D6EB00B647AE /* BaseTableViewCell.m in Sources */,
 				CD409C5A2109D6EB00B647AE /* BaseTableViewDelegate.m in Sources */,
+				CD409C75210AEEAA00B647AE /* FMViewModel.m in Sources */,
 				CD409C592109D6EB00B647AE /* BaseTableViewCellModel.m in Sources */,
 				CD409C052109D65E00B647AE /* main.m in Sources */,
 				CD409BF72109D65800B647AE /* AppDelegate.m in Sources */,

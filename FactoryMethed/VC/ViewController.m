@@ -9,13 +9,23 @@
 #import "ViewController.h"
 #import "FMMainTableViewDelegate.h"
 #import "FMImageTableViewCellModel.h"
+#import "BaseTitleSwitchCellModel.h"
+#import "FMViewModel.h"
 
 @interface ViewController ()<FMMainTableViewDelegateProtocol>
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 @property (nonatomic, strong) FMMainTableViewDelegate *delegate;
+@property (nonatomic, strong) FMViewModel *viewModel;
 @end
 
 @implementation ViewController
+
+- (FMViewModel *)viewModel{
+    if (_viewModel == nil) {
+        _viewModel = [FMViewModel new];
+    }
+    return _viewModel;
+}
 
 - (FMMainTableViewDelegate *)delegate{
     if (_delegate == nil) {
@@ -33,24 +43,14 @@
 
 
 - (void)setupTableView{
-    self.delegate.dataSource = [self dataSource];
+    self.delegate.dataSource = [self.viewModel dataSource];
     self.tableView.delegate = self.delegate;
     self.tableView.dataSource = self.delegate;
     [DAUITool registerTableView:self.tableView name:@"FMImageTableViewCell"];
+    [DAUITool registerTableView:self.tableView name:@"BaseTitleSwitchCell"];
+    [DAUITool registerTableView:self.tableView name:@"BaseTitleTextFieldCell"];
+    [DAUITool registerTableView:self.tableView name:@"BaseTitleIndicatorCell"];
     [DAUITool setExtraCellLineHidden:self.tableView];
-}
-
-- (NSMutableArray *)dataSource{
-    NSMutableArray *arr = [NSMutableArray arrayWithCapacity:4];
-    FMImageTableViewCellModel *info = [FMImageTableViewCellModel new];
-    info.title = @"支付宝";
-    info.image = @"alipay";
-    [arr addObject:info];
-    FMImageTableViewCellModel *info2 = [FMImageTableViewCellModel new];
-    info2.title = @"微信";
-    info2.image = @"wechat";
-    [arr addObject:info2];
-    return arr;
 }
 
 #pragma mark - FMMainTableViewDelegateProtocol
@@ -59,12 +59,18 @@
     FMImageTableViewCellModel *info = self.delegate.dataSource[indexPath.row];
     NSLog(@"点击了%@",info.title);
     
-    
-    
 }
 
+- (void)didSelectSwitchItem:(BaseTitleSwitchCellModel *)info{
+    if (info.selected) {
+        [self.viewModel addCell:self.delegate.dataSource];
+        [self.tableView insertRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:3 inSection:0]] withRowAnimation:UITableViewRowAnimationTop];
+    }else{
+        [self.viewModel delectCell:self.delegate.dataSource];
+        [self.tableView deleteRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:3 inSection:0]] withRowAnimation:UITableViewRowAnimationTop];
+    }
 
-
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
