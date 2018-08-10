@@ -15,6 +15,15 @@
 
 - (NSMutableArray *)dataSource{
     NSMutableArray *arr = [NSMutableArray arrayWithCapacity:4];
+    
+    BaseTitleIndicatorCellModel *info4 = [BaseTitleIndicatorCellModel new];
+    info4.title = @"跑马灯效果";
+    [arr addObject:info4];
+    
+    BaseTitleIndicatorCellModel *info5 = [BaseTitleIndicatorCellModel new];
+    info5.title = @"文字闪耀";
+    [arr addObject:info5];
+    
     FMImageTableViewCellModel *info = [FMImageTableViewCellModel new];
     info.title = @"支付宝";
     info.image = @"alipay";
@@ -26,9 +35,7 @@
     BaseTitleSwitchCellModel *info3 = [BaseTitleSwitchCellModel new];
     info3.title = @"支付比例";
     [arr addObject:info3];
-    BaseTitleIndicatorCellModel *info4 = [BaseTitleIndicatorCellModel new];
-    info4.title = @"我的资料";
-    [arr addObject:info4];
+    
     
     return arr;
 }

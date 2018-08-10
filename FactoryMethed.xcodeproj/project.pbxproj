@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD0531C8210F039800740A4B /* EasyAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0531C7210F039800740A4B /* EasyAlert.m */; };
 		CD409BF72109D65800B647AE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409BF62109D65800B647AE /* AppDelegate.m */; };
 		CD409BFA2109D65800B647AE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409BF92109D65800B647AE /* ViewController.m */; };
 		CD409BFD2109D65800B647AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD409BFB2109D65800B647AE /* Main.storyboard */; };
@@ -14,30 +15,38 @@
 		CD409C022109D65E00B647AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD409C002109D65E00B647AE /* LaunchScreen.storyboard */; };
 		CD409C052109D65E00B647AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C042109D65E00B647AE /* main.m */; };
 		CD409C0F2109D65E00B647AE /* FactoryMethedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C0E2109D65E00B647AE /* FactoryMethedTests.m */; };
-		CD409C492109D6EB00B647AE /* BasePlaceholerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C232109D6EB00B647AE /* BasePlaceholerCell.m */; };
-		CD409C4A2109D6EB00B647AE /* BasePlaceholerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD409C242109D6EB00B647AE /* BasePlaceholerCell.xib */; };
-		CD409C4B2109D6EB00B647AE /* BasePlaceholerCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C262109D6EB00B647AE /* BasePlaceholerCellModel.m */; };
-		CD409C4C2109D6EB00B647AE /* BaseTitleBigCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C292109D6EB00B647AE /* BaseTitleBigCell.m */; };
-		CD409C4D2109D6EB00B647AE /* BaseTitleBigCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD409C2A2109D6EB00B647AE /* BaseTitleBigCell.xib */; };
-		CD409C4E2109D6EB00B647AE /* BaseTitleBigCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C2C2109D6EB00B647AE /* BaseTitleBigCellModel.m */; };
-		CD409C4F2109D6EB00B647AE /* BaseTitleIndicatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C2F2109D6EB00B647AE /* BaseTitleIndicatorCell.m */; };
-		CD409C502109D6EB00B647AE /* BaseTitleIndicatorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD409C302109D6EB00B647AE /* BaseTitleIndicatorCell.xib */; };
-		CD409C512109D6EB00B647AE /* BaseTitleIndicatorCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C322109D6EB00B647AE /* BaseTitleIndicatorCellModel.m */; };
-		CD409C522109D6EB00B647AE /* BaseTitleSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C352109D6EB00B647AE /* BaseTitleSwitchCell.m */; };
-		CD409C532109D6EB00B647AE /* BaseTitleSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD409C362109D6EB00B647AE /* BaseTitleSwitchCell.xib */; };
-		CD409C542109D6EB00B647AE /* BaseTitleSwitchCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C382109D6EB00B647AE /* BaseTitleSwitchCellModel.m */; };
-		CD409C552109D6EB00B647AE /* BaseTitleTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C3B2109D6EB00B647AE /* BaseTitleTextFieldCell.m */; };
-		CD409C562109D6EB00B647AE /* BaseTitleTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD409C3C2109D6EB00B647AE /* BaseTitleTextFieldCell.xib */; };
-		CD409C572109D6EB00B647AE /* BaseTitleTextFieldCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C3E2109D6EB00B647AE /* BaseTitleTextFieldCellModel.m */; };
-		CD409C582109D6EB00B647AE /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C402109D6EB00B647AE /* BaseTableViewCell.m */; };
-		CD409C592109D6EB00B647AE /* BaseTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C422109D6EB00B647AE /* BaseTableViewCellModel.m */; };
-		CD409C5A2109D6EB00B647AE /* BaseTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C442109D6EB00B647AE /* BaseTableViewDelegate.m */; };
 		CD409C66210AB38800B647AE /* FMImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C64210AB38800B647AE /* FMImageTableViewCell.m */; };
 		CD409C67210AB38800B647AE /* FMImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD409C65210AB38800B647AE /* FMImageTableViewCell.xib */; };
 		CD409C6A210AB76200B647AE /* FMImageTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C69210AB76200B647AE /* FMImageTableViewCellModel.m */; };
 		CD409C6E210AB80500B647AE /* DAUITool.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C6D210AB80500B647AE /* DAUITool.m */; };
 		CD409C71210AB8BA00B647AE /* FMMainTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C70210AB8BA00B647AE /* FMMainTableViewDelegate.m */; };
 		CD409C75210AEEAA00B647AE /* FMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C74210AEEAA00B647AE /* FMViewModel.m */; };
+		CD4CD5B6211BDE5F009ABDAF /* XiaoMing.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5B5211BDE5F009ABDAF /* XiaoMing.m */; };
+		CD4CD5BC211C2D2E009ABDAF /* TView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5BB211C2D2E009ABDAF /* TView.m */; };
+		CD4CD5BF211D2985009ABDAF /* Xlbl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5BE211D2985009ABDAF /* Xlbl.m */; };
+		CD4CD5C3211D2E6E009ABDAF /* RunLblViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5C1211D2E6E009ABDAF /* RunLblViewController.m */; };
+		CD4CD5C4211D2E6E009ABDAF /* RunLblViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD4CD5C2211D2E6E009ABDAF /* RunLblViewController.xib */; };
+		CD4CD5C8211D30D3009ABDAF /* ShineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5C6211D30D3009ABDAF /* ShineViewController.m */; };
+		CD4CD5C9211D30D3009ABDAF /* ShineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD4CD5C7211D30D3009ABDAF /* ShineViewController.xib */; };
+		CD4CD5F5211D4078009ABDAF /* BaseNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5CD211D4077009ABDAF /* BaseNavigationController.m */; };
+		CD4CD5F6211D4078009ABDAF /* BasePlaceholerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5D3211D4078009ABDAF /* BasePlaceholerCell.m */; };
+		CD4CD5F7211D4078009ABDAF /* BasePlaceholerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD4CD5D4211D4078009ABDAF /* BasePlaceholerCell.xib */; };
+		CD4CD5F8211D4078009ABDAF /* BasePlaceholerCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5D6211D4078009ABDAF /* BasePlaceholerCellModel.m */; };
+		CD4CD5F9211D4078009ABDAF /* BaseTitleBigCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5D9211D4078009ABDAF /* BaseTitleBigCell.m */; };
+		CD4CD5FA211D4078009ABDAF /* BaseTitleBigCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD4CD5DA211D4078009ABDAF /* BaseTitleBigCell.xib */; };
+		CD4CD5FB211D4078009ABDAF /* BaseTitleBigCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5DC211D4078009ABDAF /* BaseTitleBigCellModel.m */; };
+		CD4CD5FC211D4078009ABDAF /* BaseTitleIndicatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5DF211D4078009ABDAF /* BaseTitleIndicatorCell.m */; };
+		CD4CD5FD211D4078009ABDAF /* BaseTitleIndicatorCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD4CD5E0211D4078009ABDAF /* BaseTitleIndicatorCell.xib */; };
+		CD4CD5FE211D4078009ABDAF /* BaseTitleIndicatorCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5E2211D4078009ABDAF /* BaseTitleIndicatorCellModel.m */; };
+		CD4CD5FF211D4078009ABDAF /* BaseTitleSwitchCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5E5211D4078009ABDAF /* BaseTitleSwitchCell.m */; };
+		CD4CD600211D4078009ABDAF /* BaseTitleSwitchCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD4CD5E6211D4078009ABDAF /* BaseTitleSwitchCell.xib */; };
+		CD4CD601211D4078009ABDAF /* BaseTitleSwitchCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5E8211D4078009ABDAF /* BaseTitleSwitchCellModel.m */; };
+		CD4CD602211D4078009ABDAF /* BaseTitleTextFieldCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5EB211D4078009ABDAF /* BaseTitleTextFieldCell.m */; };
+		CD4CD603211D4078009ABDAF /* BaseTitleTextFieldCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD4CD5EC211D4078009ABDAF /* BaseTitleTextFieldCell.xib */; };
+		CD4CD604211D4078009ABDAF /* BaseTitleTextFieldCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5EE211D4078009ABDAF /* BaseTitleTextFieldCellModel.m */; };
+		CD4CD605211D4078009ABDAF /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5F0211D4078009ABDAF /* BaseTableViewCell.m */; };
+		CD4CD606211D4078009ABDAF /* BaseTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5F2211D4078009ABDAF /* BaseTableViewCellModel.m */; };
+		CD4CD607211D4078009ABDAF /* BaseTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5F4211D4078009ABDAF /* BaseTableViewDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD0531C6210F039800740A4B /* EasyAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyAlert.h; sourceTree = "<group>"; };
+		CD0531C7210F039800740A4B /* EasyAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyAlert.m; sourceTree = "<group>"; };
 		CD409BF22109D65800B647AE /* FactoryMethed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FactoryMethed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD409BF52109D65800B647AE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CD409BF62109D65800B647AE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -64,37 +75,6 @@
 		CD409C0A2109D65E00B647AE /* FactoryMethedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactoryMethedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD409C0E2109D65E00B647AE /* FactoryMethedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryMethedTests.m; sourceTree = "<group>"; };
 		CD409C102109D65E00B647AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CD409C222109D6EB00B647AE /* BasePlaceholerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePlaceholerCell.h; sourceTree = "<group>"; };
-		CD409C232109D6EB00B647AE /* BasePlaceholerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePlaceholerCell.m; sourceTree = "<group>"; };
-		CD409C242109D6EB00B647AE /* BasePlaceholerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasePlaceholerCell.xib; sourceTree = "<group>"; };
-		CD409C252109D6EB00B647AE /* BasePlaceholerCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePlaceholerCellModel.h; sourceTree = "<group>"; };
-		CD409C262109D6EB00B647AE /* BasePlaceholerCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePlaceholerCellModel.m; sourceTree = "<group>"; };
-		CD409C282109D6EB00B647AE /* BaseTitleBigCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTitleBigCell.h; sourceTree = "<group>"; };
-		CD409C292109D6EB00B647AE /* BaseTitleBigCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTitleBigCell.m; sourceTree = "<group>"; };
-		CD409C2A2109D6EB00B647AE /* BaseTitleBigCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseTitleBigCell.xib; sourceTree = "<group>"; };
-		CD409C2B2109D6EB00B647AE /* BaseTitleBigCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTitleBigCellModel.h; sourceTree = "<group>"; };
-		CD409C2C2109D6EB00B647AE /* BaseTitleBigCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTitleBigCellModel.m; sourceTree = "<group>"; };
-		CD409C2E2109D6EB00B647AE /* BaseTitleIndicatorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTitleIndicatorCell.h; sourceTree = "<group>"; };
-		CD409C2F2109D6EB00B647AE /* BaseTitleIndicatorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTitleIndicatorCell.m; sourceTree = "<group>"; };
-		CD409C302109D6EB00B647AE /* BaseTitleIndicatorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseTitleIndicatorCell.xib; sourceTree = "<group>"; };
-		CD409C312109D6EB00B647AE /* BaseTitleIndicatorCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTitleIndicatorCellModel.h; sourceTree = "<group>"; };
-		CD409C322109D6EB00B647AE /* BaseTitleIndicatorCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTitleIndicatorCellModel.m; sourceTree = "<group>"; };
-		CD409C342109D6EB00B647AE /* BaseTitleSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTitleSwitchCell.h; sourceTree = "<group>"; };
-		CD409C352109D6EB00B647AE /* BaseTitleSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTitleSwitchCell.m; sourceTree = "<group>"; };
-		CD409C362109D6EB00B647AE /* BaseTitleSwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseTitleSwitchCell.xib; sourceTree = "<group>"; };
-		CD409C372109D6EB00B647AE /* BaseTitleSwitchCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTitleSwitchCellModel.h; sourceTree = "<group>"; };
-		CD409C382109D6EB00B647AE /* BaseTitleSwitchCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTitleSwitchCellModel.m; sourceTree = "<group>"; };
-		CD409C3A2109D6EB00B647AE /* BaseTitleTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTitleTextFieldCell.h; sourceTree = "<group>"; };
-		CD409C3B2109D6EB00B647AE /* BaseTitleTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTitleTextFieldCell.m; sourceTree = "<group>"; };
-		CD409C3C2109D6EB00B647AE /* BaseTitleTextFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseTitleTextFieldCell.xib; sourceTree = "<group>"; };
-		CD409C3D2109D6EB00B647AE /* BaseTitleTextFieldCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTitleTextFieldCellModel.h; sourceTree = "<group>"; };
-		CD409C3E2109D6EB00B647AE /* BaseTitleTextFieldCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTitleTextFieldCellModel.m; sourceTree = "<group>"; };
-		CD409C3F2109D6EB00B647AE /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
-		CD409C402109D6EB00B647AE /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
-		CD409C412109D6EB00B647AE /* BaseTableViewCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCellModel.h; sourceTree = "<group>"; };
-		CD409C422109D6EB00B647AE /* BaseTableViewCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCellModel.m; sourceTree = "<group>"; };
-		CD409C432109D6EB00B647AE /* BaseTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewDelegate.h; sourceTree = "<group>"; };
-		CD409C442109D6EB00B647AE /* BaseTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewDelegate.m; sourceTree = "<group>"; };
 		CD409C5B2109D86500B647AE /* FactoryMethed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FactoryMethed-Prefix.pch"; sourceTree = "<group>"; };
 		CD409C5E2109D8A100B647AE /* UIMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMacros.h; sourceTree = "<group>"; };
 		CD409C63210AB38800B647AE /* FMImageTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMImageTableViewCell.h; sourceTree = "<group>"; };
@@ -108,6 +88,51 @@
 		CD409C70210AB8BA00B647AE /* FMMainTableViewDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMMainTableViewDelegate.m; sourceTree = "<group>"; };
 		CD409C73210AEEAA00B647AE /* FMViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FMViewModel.h; sourceTree = "<group>"; };
 		CD409C74210AEEAA00B647AE /* FMViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FMViewModel.m; sourceTree = "<group>"; };
+		CD4CD5B4211BDE5F009ABDAF /* XiaoMing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XiaoMing.h; sourceTree = "<group>"; };
+		CD4CD5B5211BDE5F009ABDAF /* XiaoMing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiaoMing.m; sourceTree = "<group>"; };
+		CD4CD5BA211C2D2E009ABDAF /* TView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TView.h; sourceTree = "<group>"; };
+		CD4CD5BB211C2D2E009ABDAF /* TView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TView.m; sourceTree = "<group>"; };
+		CD4CD5BD211D2985009ABDAF /* Xlbl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Xlbl.h; sourceTree = "<group>"; };
+		CD4CD5BE211D2985009ABDAF /* Xlbl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Xlbl.m; sourceTree = "<group>"; };
+		CD4CD5C0211D2E6E009ABDAF /* RunLblViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLblViewController.h; sourceTree = "<group>"; };
+		CD4CD5C1211D2E6E009ABDAF /* RunLblViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLblViewController.m; sourceTree = "<group>"; };
+		CD4CD5C2211D2E6E009ABDAF /* RunLblViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RunLblViewController.xib; sourceTree = "<group>"; };
+		CD4CD5C5211D30D3009ABDAF /* ShineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShineViewController.h; sourceTree = "<group>"; };
+		CD4CD5C6211D30D3009ABDAF /* ShineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShineViewController.m; sourceTree = "<group>"; };
+		CD4CD5C7211D30D3009ABDAF /* ShineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShineViewController.xib; sourceTree = "<group>"; };
+		CD4CD5CC211D4077009ABDAF /* BaseNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseNavigationController.h; sourceTree = "<group>"; };
+		CD4CD5CD211D4077009ABDAF /* BaseNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseNavigationController.m; sourceTree = "<group>"; };
+		CD4CD5D2211D4078009ABDAF /* BasePlaceholerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePlaceholerCell.h; sourceTree = "<group>"; };
+		CD4CD5D3211D4078009ABDAF /* BasePlaceholerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePlaceholerCell.m; sourceTree = "<group>"; };
+		CD4CD5D4211D4078009ABDAF /* BasePlaceholerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasePlaceholerCell.xib; sourceTree = "<group>"; };
+		CD4CD5D5211D4078009ABDAF /* BasePlaceholerCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePlaceholerCellModel.h; sourceTree = "<group>"; };
+		CD4CD5D6211D4078009ABDAF /* BasePlaceholerCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePlaceholerCellModel.m; sourceTree = "<group>"; };
+		CD4CD5D8211D4078009ABDAF /* BaseTitleBigCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTitleBigCell.h; sourceTree = "<group>"; };
+		CD4CD5D9211D4078009ABDAF /* BaseTitleBigCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTitleBigCell.m; sourceTree = "<group>"; };
+		CD4CD5DA211D4078009ABDAF /* BaseTitleBigCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseTitleBigCell.xib; sourceTree = "<group>"; };
+		CD4CD5DB211D4078009ABDAF /* BaseTitleBigCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTitleBigCellModel.h; sourceTree = "<group>"; };
+		CD4CD5DC211D4078009ABDAF /* BaseTitleBigCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTitleBigCellModel.m; sourceTree = "<group>"; };
+		CD4CD5DE211D4078009ABDAF /* BaseTitleIndicatorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTitleIndicatorCell.h; sourceTree = "<group>"; };
+		CD4CD5DF211D4078009ABDAF /* BaseTitleIndicatorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTitleIndicatorCell.m; sourceTree = "<group>"; };
+		CD4CD5E0211D4078009ABDAF /* BaseTitleIndicatorCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseTitleIndicatorCell.xib; sourceTree = "<group>"; };
+		CD4CD5E1211D4078009ABDAF /* BaseTitleIndicatorCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTitleIndicatorCellModel.h; sourceTree = "<group>"; };
+		CD4CD5E2211D4078009ABDAF /* BaseTitleIndicatorCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTitleIndicatorCellModel.m; sourceTree = "<group>"; };
+		CD4CD5E4211D4078009ABDAF /* BaseTitleSwitchCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTitleSwitchCell.h; sourceTree = "<group>"; };
+		CD4CD5E5211D4078009ABDAF /* BaseTitleSwitchCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTitleSwitchCell.m; sourceTree = "<group>"; };
+		CD4CD5E6211D4078009ABDAF /* BaseTitleSwitchCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseTitleSwitchCell.xib; sourceTree = "<group>"; };
+		CD4CD5E7211D4078009ABDAF /* BaseTitleSwitchCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTitleSwitchCellModel.h; sourceTree = "<group>"; };
+		CD4CD5E8211D4078009ABDAF /* BaseTitleSwitchCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTitleSwitchCellModel.m; sourceTree = "<group>"; };
+		CD4CD5EA211D4078009ABDAF /* BaseTitleTextFieldCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTitleTextFieldCell.h; sourceTree = "<group>"; };
+		CD4CD5EB211D4078009ABDAF /* BaseTitleTextFieldCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTitleTextFieldCell.m; sourceTree = "<group>"; };
+		CD4CD5EC211D4078009ABDAF /* BaseTitleTextFieldCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BaseTitleTextFieldCell.xib; sourceTree = "<group>"; };
+		CD4CD5ED211D4078009ABDAF /* BaseTitleTextFieldCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTitleTextFieldCellModel.h; sourceTree = "<group>"; };
+		CD4CD5EE211D4078009ABDAF /* BaseTitleTextFieldCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTitleTextFieldCellModel.m; sourceTree = "<group>"; };
+		CD4CD5EF211D4078009ABDAF /* BaseTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCell.h; sourceTree = "<group>"; };
+		CD4CD5F0211D4078009ABDAF /* BaseTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCell.m; sourceTree = "<group>"; };
+		CD4CD5F1211D4078009ABDAF /* BaseTableViewCellModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewCellModel.h; sourceTree = "<group>"; };
+		CD4CD5F2211D4078009ABDAF /* BaseTableViewCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCellModel.m; sourceTree = "<group>"; };
+		CD4CD5F3211D4078009ABDAF /* BaseTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewDelegate.h; sourceTree = "<group>"; };
+		CD4CD5F4211D4078009ABDAF /* BaseTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +153,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CD0531C5210F033B00740A4B /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				CD0531C6210F039800740A4B /* EasyAlert.h */,
+				CD0531C7210F039800740A4B /* EasyAlert.m */,
+			);
+			path = Alert;
+			sourceTree = "<group>";
+		};
 		CD409BE92109D65800B647AE = {
 			isa = PBXGroup;
 			children = (
@@ -149,10 +183,10 @@
 		CD409BF42109D65800B647AE /* FactoryMethed */ = {
 			isa = PBXGroup;
 			children = (
+				CD4CD5CA211D4061009ABDAF /* Base */,
 				CD409C602109DD4800B647AE /* VC */,
 				CD409C5F2109D90000B647AE /* AppDelegate */,
 				CD409C5C2109D8A100B647AE /* Expand */,
-				CD409C192109D6EB00B647AE /* BaseTableView */,
 				CD409C5B2109D86500B647AE /* FactoryMethed-Prefix.pch */,
 				CD409BFE2109D65E00B647AE /* Assets.xcassets */,
 				CD409C002109D65E00B647AE /* LaunchScreen.storyboard */,
@@ -171,95 +205,10 @@
 			path = FactoryMethedTests;
 			sourceTree = "<group>";
 		};
-		CD409C192109D6EB00B647AE /* BaseTableView */ = {
-			isa = PBXGroup;
-			children = (
-				CD409C1A2109D6EB00B647AE /* BaseCell */,
-				CD409C3F2109D6EB00B647AE /* BaseTableViewCell.h */,
-				CD409C402109D6EB00B647AE /* BaseTableViewCell.m */,
-				CD409C412109D6EB00B647AE /* BaseTableViewCellModel.h */,
-				CD409C422109D6EB00B647AE /* BaseTableViewCellModel.m */,
-				CD409C432109D6EB00B647AE /* BaseTableViewDelegate.h */,
-				CD409C442109D6EB00B647AE /* BaseTableViewDelegate.m */,
-			);
-			path = BaseTableView;
-			sourceTree = "<group>";
-		};
-		CD409C1A2109D6EB00B647AE /* BaseCell */ = {
-			isa = PBXGroup;
-			children = (
-				CD409C212109D6EB00B647AE /* PlaceholderCell */,
-				CD409C272109D6EB00B647AE /* TitleBigCell */,
-				CD409C2D2109D6EB00B647AE /* TitleIndicatorCell */,
-				CD409C332109D6EB00B647AE /* TitleSwitchCell */,
-				CD409C392109D6EB00B647AE /* TitleTextFieldCell */,
-			);
-			path = BaseCell;
-			sourceTree = "<group>";
-		};
-		CD409C212109D6EB00B647AE /* PlaceholderCell */ = {
-			isa = PBXGroup;
-			children = (
-				CD409C222109D6EB00B647AE /* BasePlaceholerCell.h */,
-				CD409C232109D6EB00B647AE /* BasePlaceholerCell.m */,
-				CD409C242109D6EB00B647AE /* BasePlaceholerCell.xib */,
-				CD409C252109D6EB00B647AE /* BasePlaceholerCellModel.h */,
-				CD409C262109D6EB00B647AE /* BasePlaceholerCellModel.m */,
-			);
-			path = PlaceholderCell;
-			sourceTree = "<group>";
-		};
-		CD409C272109D6EB00B647AE /* TitleBigCell */ = {
-			isa = PBXGroup;
-			children = (
-				CD409C282109D6EB00B647AE /* BaseTitleBigCell.h */,
-				CD409C292109D6EB00B647AE /* BaseTitleBigCell.m */,
-				CD409C2A2109D6EB00B647AE /* BaseTitleBigCell.xib */,
-				CD409C2B2109D6EB00B647AE /* BaseTitleBigCellModel.h */,
-				CD409C2C2109D6EB00B647AE /* BaseTitleBigCellModel.m */,
-			);
-			path = TitleBigCell;
-			sourceTree = "<group>";
-		};
-		CD409C2D2109D6EB00B647AE /* TitleIndicatorCell */ = {
-			isa = PBXGroup;
-			children = (
-				CD409C2E2109D6EB00B647AE /* BaseTitleIndicatorCell.h */,
-				CD409C2F2109D6EB00B647AE /* BaseTitleIndicatorCell.m */,
-				CD409C302109D6EB00B647AE /* BaseTitleIndicatorCell.xib */,
-				CD409C312109D6EB00B647AE /* BaseTitleIndicatorCellModel.h */,
-				CD409C322109D6EB00B647AE /* BaseTitleIndicatorCellModel.m */,
-			);
-			path = TitleIndicatorCell;
-			sourceTree = "<group>";
-		};
-		CD409C332109D6EB00B647AE /* TitleSwitchCell */ = {
-			isa = PBXGroup;
-			children = (
-				CD409C342109D6EB00B647AE /* BaseTitleSwitchCell.h */,
-				CD409C352109D6EB00B647AE /* BaseTitleSwitchCell.m */,
-				CD409C362109D6EB00B647AE /* BaseTitleSwitchCell.xib */,
-				CD409C372109D6EB00B647AE /* BaseTitleSwitchCellModel.h */,
-				CD409C382109D6EB00B647AE /* BaseTitleSwitchCellModel.m */,
-			);
-			path = TitleSwitchCell;
-			sourceTree = "<group>";
-		};
-		CD409C392109D6EB00B647AE /* TitleTextFieldCell */ = {
-			isa = PBXGroup;
-			children = (
-				CD409C3A2109D6EB00B647AE /* BaseTitleTextFieldCell.h */,
-				CD409C3B2109D6EB00B647AE /* BaseTitleTextFieldCell.m */,
-				CD409C3C2109D6EB00B647AE /* BaseTitleTextFieldCell.xib */,
-				CD409C3D2109D6EB00B647AE /* BaseTitleTextFieldCellModel.h */,
-				CD409C3E2109D6EB00B647AE /* BaseTitleTextFieldCellModel.m */,
-			);
-			path = TitleTextFieldCell;
-			sourceTree = "<group>";
-		};
 		CD409C5C2109D8A100B647AE /* Expand */ = {
 			isa = PBXGroup;
 			children = (
+				CD0531C5210F033B00740A4B /* Alert */,
 				CD409C6B210AB7F400B647AE /* Tool */,
 				CD409C5D2109D8A100B647AE /* Macro */,
 			);
@@ -286,6 +235,8 @@
 		CD409C602109DD4800B647AE /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				CD4CD609211D5E63009ABDAF /* ShineVC */,
+				CD4CD608211D5E4F009ABDAF /* RunLblVC */,
 				CD409C72210AEE8900B647AE /* ViewModel */,
 				CD409C622109DD5E00B647AE /* Model */,
 				CD409C612109DD5700B647AE /* View */,
@@ -304,6 +255,10 @@
 				CD409C65210AB38800B647AE /* FMImageTableViewCell.xib */,
 				CD409C6F210AB8BA00B647AE /* FMMainTableViewDelegate.h */,
 				CD409C70210AB8BA00B647AE /* FMMainTableViewDelegate.m */,
+				CD4CD5BA211C2D2E009ABDAF /* TView.h */,
+				CD4CD5BB211C2D2E009ABDAF /* TView.m */,
+				CD4CD5BD211D2985009ABDAF /* Xlbl.h */,
+				CD4CD5BE211D2985009ABDAF /* Xlbl.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -313,6 +268,8 @@
 			children = (
 				CD409C68210AB76200B647AE /* FMImageTableViewCellModel.h */,
 				CD409C69210AB76200B647AE /* FMImageTableViewCellModel.m */,
+				CD4CD5B4211BDE5F009ABDAF /* XiaoMing.h */,
+				CD4CD5B5211BDE5F009ABDAF /* XiaoMing.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -333,6 +290,138 @@
 				CD409C74210AEEAA00B647AE /* FMViewModel.m */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		CD4CD5CA211D4061009ABDAF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				CD4CD5CB211D4077009ABDAF /* BaseNavigationController */,
+				CD4CD5CE211D4078009ABDAF /* BaseTableView */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		CD4CD5CB211D4077009ABDAF /* BaseNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				CD4CD5CC211D4077009ABDAF /* BaseNavigationController.h */,
+				CD4CD5CD211D4077009ABDAF /* BaseNavigationController.m */,
+			);
+			path = BaseNavigationController;
+			sourceTree = "<group>";
+		};
+		CD4CD5CE211D4078009ABDAF /* BaseTableView */ = {
+			isa = PBXGroup;
+			children = (
+				CD4CD5CF211D4078009ABDAF /* BaseCell */,
+				CD4CD5EF211D4078009ABDAF /* BaseTableViewCell.h */,
+				CD4CD5F0211D4078009ABDAF /* BaseTableViewCell.m */,
+				CD4CD5F1211D4078009ABDAF /* BaseTableViewCellModel.h */,
+				CD4CD5F2211D4078009ABDAF /* BaseTableViewCellModel.m */,
+				CD4CD5F3211D4078009ABDAF /* BaseTableViewDelegate.h */,
+				CD4CD5F4211D4078009ABDAF /* BaseTableViewDelegate.m */,
+			);
+			path = BaseTableView;
+			sourceTree = "<group>";
+		};
+		CD4CD5CF211D4078009ABDAF /* BaseCell */ = {
+			isa = PBXGroup;
+			children = (
+				CD4CD5D0211D4078009ABDAF /* ImageCell */,
+				CD4CD5D1211D4078009ABDAF /* PlaceholderCell */,
+				CD4CD5D7211D4078009ABDAF /* TitleBigCell */,
+				CD4CD5DD211D4078009ABDAF /* TitleIndicatorCell */,
+				CD4CD5E3211D4078009ABDAF /* TitleSwitchCell */,
+				CD4CD5E9211D4078009ABDAF /* TitleTextFieldCell */,
+			);
+			path = BaseCell;
+			sourceTree = "<group>";
+		};
+		CD4CD5D0211D4078009ABDAF /* ImageCell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ImageCell;
+			sourceTree = "<group>";
+		};
+		CD4CD5D1211D4078009ABDAF /* PlaceholderCell */ = {
+			isa = PBXGroup;
+			children = (
+				CD4CD5D2211D4078009ABDAF /* BasePlaceholerCell.h */,
+				CD4CD5D3211D4078009ABDAF /* BasePlaceholerCell.m */,
+				CD4CD5D4211D4078009ABDAF /* BasePlaceholerCell.xib */,
+				CD4CD5D5211D4078009ABDAF /* BasePlaceholerCellModel.h */,
+				CD4CD5D6211D4078009ABDAF /* BasePlaceholerCellModel.m */,
+			);
+			path = PlaceholderCell;
+			sourceTree = "<group>";
+		};
+		CD4CD5D7211D4078009ABDAF /* TitleBigCell */ = {
+			isa = PBXGroup;
+			children = (
+				CD4CD5D8211D4078009ABDAF /* BaseTitleBigCell.h */,
+				CD4CD5D9211D4078009ABDAF /* BaseTitleBigCell.m */,
+				CD4CD5DA211D4078009ABDAF /* BaseTitleBigCell.xib */,
+				CD4CD5DB211D4078009ABDAF /* BaseTitleBigCellModel.h */,
+				CD4CD5DC211D4078009ABDAF /* BaseTitleBigCellModel.m */,
+			);
+			path = TitleBigCell;
+			sourceTree = "<group>";
+		};
+		CD4CD5DD211D4078009ABDAF /* TitleIndicatorCell */ = {
+			isa = PBXGroup;
+			children = (
+				CD4CD5DE211D4078009ABDAF /* BaseTitleIndicatorCell.h */,
+				CD4CD5DF211D4078009ABDAF /* BaseTitleIndicatorCell.m */,
+				CD4CD5E0211D4078009ABDAF /* BaseTitleIndicatorCell.xib */,
+				CD4CD5E1211D4078009ABDAF /* BaseTitleIndicatorCellModel.h */,
+				CD4CD5E2211D4078009ABDAF /* BaseTitleIndicatorCellModel.m */,
+			);
+			path = TitleIndicatorCell;
+			sourceTree = "<group>";
+		};
+		CD4CD5E3211D4078009ABDAF /* TitleSwitchCell */ = {
+			isa = PBXGroup;
+			children = (
+				CD4CD5E4211D4078009ABDAF /* BaseTitleSwitchCell.h */,
+				CD4CD5E5211D4078009ABDAF /* BaseTitleSwitchCell.m */,
+				CD4CD5E6211D4078009ABDAF /* BaseTitleSwitchCell.xib */,
+				CD4CD5E7211D4078009ABDAF /* BaseTitleSwitchCellModel.h */,
+				CD4CD5E8211D4078009ABDAF /* BaseTitleSwitchCellModel.m */,
+			);
+			path = TitleSwitchCell;
+			sourceTree = "<group>";
+		};
+		CD4CD5E9211D4078009ABDAF /* TitleTextFieldCell */ = {
+			isa = PBXGroup;
+			children = (
+				CD4CD5EA211D4078009ABDAF /* BaseTitleTextFieldCell.h */,
+				CD4CD5EB211D4078009ABDAF /* BaseTitleTextFieldCell.m */,
+				CD4CD5EC211D4078009ABDAF /* BaseTitleTextFieldCell.xib */,
+				CD4CD5ED211D4078009ABDAF /* BaseTitleTextFieldCellModel.h */,
+				CD4CD5EE211D4078009ABDAF /* BaseTitleTextFieldCellModel.m */,
+			);
+			path = TitleTextFieldCell;
+			sourceTree = "<group>";
+		};
+		CD4CD608211D5E4F009ABDAF /* RunLblVC */ = {
+			isa = PBXGroup;
+			children = (
+				CD4CD5C0211D2E6E009ABDAF /* RunLblViewController.h */,
+				CD4CD5C1211D2E6E009ABDAF /* RunLblViewController.m */,
+				CD4CD5C2211D2E6E009ABDAF /* RunLblViewController.xib */,
+			);
+			path = RunLblVC;
+			sourceTree = "<group>";
+		};
+		CD4CD609211D5E63009ABDAF /* ShineVC */ = {
+			isa = PBXGroup;
+			children = (
+				CD4CD5C5211D30D3009ABDAF /* ShineViewController.h */,
+				CD4CD5C6211D30D3009ABDAF /* ShineViewController.m */,
+				CD4CD5C7211D30D3009ABDAF /* ShineViewController.xib */,
+			);
+			path = ShineVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -415,15 +504,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD409C502109D6EB00B647AE /* BaseTitleIndicatorCell.xib in Resources */,
-				CD409C4D2109D6EB00B647AE /* BaseTitleBigCell.xib in Resources */,
+				CD4CD5F7211D4078009ABDAF /* BasePlaceholerCell.xib in Resources */,
 				CD409C022109D65E00B647AE /* LaunchScreen.storyboard in Resources */,
+				CD4CD5FD211D4078009ABDAF /* BaseTitleIndicatorCell.xib in Resources */,
 				CD409BFF2109D65E00B647AE /* Assets.xcassets in Resources */,
+				CD4CD5C9211D30D3009ABDAF /* ShineViewController.xib in Resources */,
+				CD4CD600211D4078009ABDAF /* BaseTitleSwitchCell.xib in Resources */,
+				CD4CD5FA211D4078009ABDAF /* BaseTitleBigCell.xib in Resources */,
 				CD409BFD2109D65800B647AE /* Main.storyboard in Resources */,
-				CD409C562109D6EB00B647AE /* BaseTitleTextFieldCell.xib in Resources */,
-				CD409C4A2109D6EB00B647AE /* BasePlaceholerCell.xib in Resources */,
+				CD4CD603211D4078009ABDAF /* BaseTitleTextFieldCell.xib in Resources */,
+				CD4CD5C4211D2E6E009ABDAF /* RunLblViewController.xib in Resources */,
 				CD409C67210AB38800B647AE /* FMImageTableViewCell.xib in Resources */,
-				CD409C532109D6EB00B647AE /* BaseTitleSwitchCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,27 +532,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD409C552109D6EB00B647AE /* BaseTitleTextFieldCell.m in Sources */,
 				CD409BFA2109D65800B647AE /* ViewController.m in Sources */,
-				CD409C542109D6EB00B647AE /* BaseTitleSwitchCellModel.m in Sources */,
-				CD409C4E2109D6EB00B647AE /* BaseTitleBigCellModel.m in Sources */,
-				CD409C4B2109D6EB00B647AE /* BasePlaceholerCellModel.m in Sources */,
-				CD409C572109D6EB00B647AE /* BaseTitleTextFieldCellModel.m in Sources */,
+				CD0531C8210F039800740A4B /* EasyAlert.m in Sources */,
+				CD4CD604211D4078009ABDAF /* BaseTitleTextFieldCellModel.m in Sources */,
 				CD409C6A210AB76200B647AE /* FMImageTableViewCellModel.m in Sources */,
-				CD409C4C2109D6EB00B647AE /* BaseTitleBigCell.m in Sources */,
-				CD409C512109D6EB00B647AE /* BaseTitleIndicatorCellModel.m in Sources */,
-				CD409C492109D6EB00B647AE /* BasePlaceholerCell.m in Sources */,
+				CD4CD5BC211C2D2E009ABDAF /* TView.m in Sources */,
+				CD4CD601211D4078009ABDAF /* BaseTitleSwitchCellModel.m in Sources */,
+				CD4CD5C3211D2E6E009ABDAF /* RunLblViewController.m in Sources */,
 				CD409C71210AB8BA00B647AE /* FMMainTableViewDelegate.m in Sources */,
-				CD409C4F2109D6EB00B647AE /* BaseTitleIndicatorCell.m in Sources */,
-				CD409C582109D6EB00B647AE /* BaseTableViewCell.m in Sources */,
-				CD409C5A2109D6EB00B647AE /* BaseTableViewDelegate.m in Sources */,
+				CD4CD605211D4078009ABDAF /* BaseTableViewCell.m in Sources */,
+				CD4CD5C8211D30D3009ABDAF /* ShineViewController.m in Sources */,
+				CD4CD5BF211D2985009ABDAF /* Xlbl.m in Sources */,
+				CD4CD5F9211D4078009ABDAF /* BaseTitleBigCell.m in Sources */,
+				CD4CD5B6211BDE5F009ABDAF /* XiaoMing.m in Sources */,
+				CD4CD5F6211D4078009ABDAF /* BasePlaceholerCell.m in Sources */,
+				CD4CD5FE211D4078009ABDAF /* BaseTitleIndicatorCellModel.m in Sources */,
 				CD409C75210AEEAA00B647AE /* FMViewModel.m in Sources */,
-				CD409C592109D6EB00B647AE /* BaseTableViewCellModel.m in Sources */,
+				CD4CD5F8211D4078009ABDAF /* BasePlaceholerCellModel.m in Sources */,
 				CD409C052109D65E00B647AE /* main.m in Sources */,
 				CD409BF72109D65800B647AE /* AppDelegate.m in Sources */,
+				CD4CD602211D4078009ABDAF /* BaseTitleTextFieldCell.m in Sources */,
+				CD4CD606211D4078009ABDAF /* BaseTableViewCellModel.m in Sources */,
+				CD4CD5FB211D4078009ABDAF /* BaseTitleBigCellModel.m in Sources */,
 				CD409C6E210AB80500B647AE /* DAUITool.m in Sources */,
+				CD4CD607211D4078009ABDAF /* BaseTableViewDelegate.m in Sources */,
+				CD4CD5FC211D4078009ABDAF /* BaseTitleIndicatorCell.m in Sources */,
 				CD409C66210AB38800B647AE /* FMImageTableViewCell.m in Sources */,
-				CD409C522109D6EB00B647AE /* BaseTitleSwitchCell.m in Sources */,
+				CD4CD5F5211D4078009ABDAF /* BaseNavigationController.m in Sources */,
+				CD4CD5FF211D4078009ABDAF /* BaseTitleSwitchCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

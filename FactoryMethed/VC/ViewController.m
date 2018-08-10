@@ -11,14 +11,34 @@
 #import "FMImageTableViewCellModel.h"
 #import "BaseTitleSwitchCellModel.h"
 #import "FMViewModel.h"
+#import "EasyAlert.h"
+#import "XiaoMing.h"
+#import "RunLblViewController.h"
+#import "ShineViewController.h"
+
 
 @interface ViewController ()<FMMainTableViewDelegateProtocol>
+
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
+
 @property (nonatomic, strong) FMMainTableViewDelegate *delegate;
 @property (nonatomic, strong) FMViewModel *viewModel;
+
+@property (nonatomic, strong) NSMutableArray *durationArray;
+@property (nonatomic, strong) NSMutableArray *delayArray;
 @end
 
 @implementation ViewController
+
+
++(instancetype)viewControllerInit{
+    UIStoryboard *board=[UIStoryboard storyboardWithName:@"Main" bundle:nil];
+    ViewController *vc=[board instantiateViewControllerWithIdentifier:@"ViewController"];
+    return vc;
+}
+-(instancetype)init{
+    return [ViewController viewControllerInit];
+}
 
 - (FMViewModel *)viewModel{
     if (_viewModel == nil) {
@@ -39,8 +59,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     [self setupTableView];
+    self.title = @"Home";
+    XiaoMing *xm = [[XiaoMing alloc]init];    //各种情况直接赋值给dayStr即可。
+    NSString *dayStr = @"day3";
+    [xm doSomethingWithDayStr:dayStr params:@{@"key":@"test"}];
+   
+    
+    
 }
-
 
 - (void)setupTableView{
     self.delegate.dataSource = [self.viewModel dataSource];
@@ -56,8 +82,13 @@
 #pragma mark - FMMainTableViewDelegateProtocol
 
 - (void)didSelectItem:(NSIndexPath *)indexPath{
-    FMImageTableViewCellModel *info = self.delegate.dataSource[indexPath.row];
-    NSLog(@"点击了%@",info.title);
+    if (indexPath.row == 0) {
+        RunLblViewController *vc = [[RunLblViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:true];
+    }else if (indexPath.row == 1){
+        ShineViewController *vc = [[ShineViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:true];
+    }
     
 }
 

@@ -37,11 +37,11 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
-    if (indexPath.row == 0 || indexPath.row == 1) {
-        if ([self.delegate respondsToSelector:@selector(didSelectItem:)]) {
-            [self.delegate didSelectItem:indexPath];
-        }
+   
+    if ([self.delegate respondsToSelector:@selector(didSelectItem:)]) {
+        [self.delegate didSelectItem:indexPath];
     }
+    
     
 }
 
