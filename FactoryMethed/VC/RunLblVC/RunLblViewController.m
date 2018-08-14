@@ -7,9 +7,10 @@
 //
 
 #import "RunLblViewController.h"
-#import "Xlbl.h"
+#import "RunLabel.h"
 @interface RunLblViewController ()
-@property (weak, nonatomic) IBOutlet Xlbl *runLbl;
+@property (weak, nonatomic) IBOutlet RunLabel *runLbl;
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
@@ -22,7 +23,7 @@
     self.runLbl.textColor = [UIColor redColor];
     self.runLbl.speed = 0.3;
     
-    Xlbl *lbl = [[Xlbl alloc]initWithFrame:CGRectMake(100, 50, 150, 40)];
+    RunLabel *lbl = [[RunLabel alloc]initWithFrame:CGRectMake(100, 50, 150, 40)];
     lbl.backgroundColor = [UIColor grayColor];
     lbl.textColor = [UIColor redColor];
     lbl.font = [UIFont systemFontOfSize:15];
@@ -31,6 +32,9 @@
     [self.view addSubview:lbl];
 }
 - (IBAction)clickChange:(id)sender {
+    [self.view endEditing:true];
+    NSString *txt = self.textField.text;
+    self.runLbl.text = txt;
 }
 
 - (void)didReceiveMemoryWarning {

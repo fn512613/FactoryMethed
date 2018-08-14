@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Xlbl : UIView
+@interface RunLabel : UIView
 //字体颜色
 @property (nonatomic, strong) UIColor *textColor;
 

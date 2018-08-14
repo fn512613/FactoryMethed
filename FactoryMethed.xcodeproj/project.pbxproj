@@ -23,7 +23,7 @@
 		CD409C75210AEEAA00B647AE /* FMViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C74210AEEAA00B647AE /* FMViewModel.m */; };
 		CD4CD5B6211BDE5F009ABDAF /* XiaoMing.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5B5211BDE5F009ABDAF /* XiaoMing.m */; };
 		CD4CD5BC211C2D2E009ABDAF /* TView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5BB211C2D2E009ABDAF /* TView.m */; };
-		CD4CD5BF211D2985009ABDAF /* Xlbl.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5BE211D2985009ABDAF /* Xlbl.m */; };
+		CD4CD5BF211D2985009ABDAF /* RunLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5BE211D2985009ABDAF /* RunLabel.m */; };
 		CD4CD5C3211D2E6E009ABDAF /* RunLblViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5C1211D2E6E009ABDAF /* RunLblViewController.m */; };
 		CD4CD5C4211D2E6E009ABDAF /* RunLblViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD4CD5C2211D2E6E009ABDAF /* RunLblViewController.xib */; };
 		CD4CD5C8211D30D3009ABDAF /* ShineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5C6211D30D3009ABDAF /* ShineViewController.m */; };
@@ -92,8 +92,8 @@
 		CD4CD5B5211BDE5F009ABDAF /* XiaoMing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiaoMing.m; sourceTree = "<group>"; };
 		CD4CD5BA211C2D2E009ABDAF /* TView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TView.h; sourceTree = "<group>"; };
 		CD4CD5BB211C2D2E009ABDAF /* TView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TView.m; sourceTree = "<group>"; };
-		CD4CD5BD211D2985009ABDAF /* Xlbl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Xlbl.h; sourceTree = "<group>"; };
-		CD4CD5BE211D2985009ABDAF /* Xlbl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Xlbl.m; sourceTree = "<group>"; };
+		CD4CD5BD211D2985009ABDAF /* RunLabel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLabel.h; sourceTree = "<group>"; };
+		CD4CD5BE211D2985009ABDAF /* RunLabel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLabel.m; sourceTree = "<group>"; };
 		CD4CD5C0211D2E6E009ABDAF /* RunLblViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLblViewController.h; sourceTree = "<group>"; };
 		CD4CD5C1211D2E6E009ABDAF /* RunLblViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLblViewController.m; sourceTree = "<group>"; };
 		CD4CD5C2211D2E6E009ABDAF /* RunLblViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RunLblViewController.xib; sourceTree = "<group>"; };
@@ -257,8 +257,8 @@
 				CD409C70210AB8BA00B647AE /* FMMainTableViewDelegate.m */,
 				CD4CD5BA211C2D2E009ABDAF /* TView.h */,
 				CD4CD5BB211C2D2E009ABDAF /* TView.m */,
-				CD4CD5BD211D2985009ABDAF /* Xlbl.h */,
-				CD4CD5BE211D2985009ABDAF /* Xlbl.m */,
+				CD4CD5BD211D2985009ABDAF /* RunLabel.h */,
+				CD4CD5BE211D2985009ABDAF /* RunLabel.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -542,7 +542,7 @@
 				CD409C71210AB8BA00B647AE /* FMMainTableViewDelegate.m in Sources */,
 				CD4CD605211D4078009ABDAF /* BaseTableViewCell.m in Sources */,
 				CD4CD5C8211D30D3009ABDAF /* ShineViewController.m in Sources */,
-				CD4CD5BF211D2985009ABDAF /* Xlbl.m in Sources */,
+				CD4CD5BF211D2985009ABDAF /* RunLabel.m in Sources */,
 				CD4CD5F9211D4078009ABDAF /* BaseTitleBigCell.m in Sources */,
 				CD4CD5B6211BDE5F009ABDAF /* XiaoMing.m in Sources */,
 				CD4CD5F6211D4078009ABDAF /* BasePlaceholerCell.m in Sources */,

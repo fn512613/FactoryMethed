@@ -6,14 +6,14 @@
 //  Copyright © 2018年 qianpanpan. All rights reserved.
 //
 
-#import "Xlbl.h"
-@interface Xlbl ()
+#import "RunLabel.h"
+@interface RunLabel ()
 @property (nonatomic, assign) CGFloat offsetX; //x偏移量
 @property (nonatomic, assign) CGFloat labelWidth; //label的宽度
 @property (nonatomic, strong) UILabel *moveLabel;
 @end
 
-@implementation Xlbl
+@implementation RunLabel
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]){
         _speed = 0.2;//默认值
@@ -71,6 +71,7 @@
     [_moveLabel sizeToFit];
     CGRect rect = _moveLabel.frame;
     rect.size.height = self.frame.size.height;
+    rect.origin = CGPointMake(0, 0);
     _moveLabel.frame = rect;
     _offsetX = _moveLabel.frame.origin.x;
     self.clipsToBounds = YES;//设置了这个属性后才能局部显示
@@ -79,8 +80,9 @@
 - (void)displayLabelAction{
     
     _labelWidth = self.moveLabel.frame.size.width;
-    if (_labelWidth < self.frame.size.width) return;//如果字能显示全则不移动
-    
+    if (_labelWidth < self.frame.size.width) {
+        return;//如果字能显示全则不移动
+    }
     CGRect rect = self.moveLabel.frame;
     _offsetX -= self.speed;
     rect.origin.x = _offsetX;

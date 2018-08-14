@@ -13,6 +13,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RunLblViewController">
             <connections>
                 <outlet property="runLbl" destination="mYs-Ph-DLa" id="In0-ta-e29"/>
+                <outlet property="textField" destination="7Md-CU-1lg" id="hfP-Zw-BhD"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -21,7 +22,7 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mYs-Ph-DLa" customClass="Xlbl">
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mYs-Ph-DLa" customClass="RunLabel">
                     <rect key="frame" x="99" y="20" width="177" height="39"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="39" id="9bM-9B-89f"/>
