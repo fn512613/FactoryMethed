@@ -7,7 +7,9 @@
 //
 
 #import <XCTest/XCTest.h>
-
+#import "CEO.h"
+#import "CTO.h"
+#import "PM.h"
 @interface FactoryMethedTests : XCTestCase
 
 @end
@@ -24,9 +26,17 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+- (void)testChainOfResponsibility{
+    CEO *ceo = [[CEO alloc] init];
+    CTO *cto = [[CTO alloc] init];
+    PM *pm = [[PM alloc] init];
+    pm.superior = cto;
+    cto.superior = ceo;
+    
+    NSArray *leaveApplicationArray = @[@"1", @"16", @"25", @"31"];
+    for (NSString *string in leaveApplicationArray) {
+        [pm handleLeaveApplication:[string integerValue]];
+    }
 }
 
 - (void)testPerformanceExample {

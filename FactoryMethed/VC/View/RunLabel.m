@@ -7,6 +7,17 @@
 //
 
 #import "RunLabel.h"
+
+
+typedef NS_ENUM(NSInteger, Test)
+{
+    TestA       = 1,      //1   1   1
+    TestB       = 1 << 1, //2   2   10      转换成 10进制  2
+    TestC       = 1 << 2, //4   3   100     转换成 10进制  4
+    TestD       = 1 << 3, //8   4   1000    转换成 10进制  8
+    TestE       = 1 << 4  //16  5   10000   转换成 10进制  16
+};
+
 @interface RunLabel ()
 @property (nonatomic, assign) CGFloat offsetX; //x偏移量
 @property (nonatomic, assign) CGFloat labelWidth; //label的宽度
@@ -19,6 +30,7 @@
         _speed = 0.2;//默认值
         [self initView];
         [self initTimer];
+        [self shot];
     }
     return self;
 }
@@ -91,6 +103,12 @@
         _offsetX = self.frame.size.width;
     }
 }
+
+- (void)shot{
+    Test tes = (TestD|TestC);
+    NSLog(@"%zd",tes);
+}
+
 
 
 @end

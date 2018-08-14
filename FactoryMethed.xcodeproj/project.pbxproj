@@ -14,7 +14,7 @@
 		CD409BFF2109D65E00B647AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD409BFE2109D65E00B647AE /* Assets.xcassets */; };
 		CD409C022109D65E00B647AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD409C002109D65E00B647AE /* LaunchScreen.storyboard */; };
 		CD409C052109D65E00B647AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C042109D65E00B647AE /* main.m */; };
-		CD409C0F2109D65E00B647AE /* FactoryMethedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C0E2109D65E00B647AE /* FactoryMethedTests.m */; };
+		CD409C0F2109D65E00B647AE /* ChainOfResponsibility.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C0E2109D65E00B647AE /* ChainOfResponsibility.m */; };
 		CD409C66210AB38800B647AE /* FMImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C64210AB38800B647AE /* FMImageTableViewCell.m */; };
 		CD409C67210AB38800B647AE /* FMImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD409C65210AB38800B647AE /* FMImageTableViewCell.xib */; };
 		CD409C6A210AB76200B647AE /* FMImageTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD409C69210AB76200B647AE /* FMImageTableViewCellModel.m */; };
@@ -47,6 +47,16 @@
 		CD4CD605211D4078009ABDAF /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5F0211D4078009ABDAF /* BaseTableViewCell.m */; };
 		CD4CD606211D4078009ABDAF /* BaseTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5F2211D4078009ABDAF /* BaseTableViewCellModel.m */; };
 		CD4CD607211D4078009ABDAF /* BaseTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5F4211D4078009ABDAF /* BaseTableViewDelegate.m */; };
+		CDDEDCFE2122C6A700D57309 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDEDCFD2122C6A700D57309 /* Manager.m */; };
+		CDDEDD012122C6EE00D57309 /* CEO.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDEDD002122C6EE00D57309 /* CEO.m */; };
+		CDDEDD042122C72B00D57309 /* CTO.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDEDD032122C72B00D57309 /* CTO.m */; };
+		CDDEDD072122C74700D57309 /* PM.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDEDD062122C74700D57309 /* PM.m */; };
+		CDDEDD0C2122CD0700D57309 /* Waiter.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDEDD0B2122CD0700D57309 /* Waiter.m */; };
+		CDDEDD0F2122D0FB00D57309 /* Cook.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDEDD0E2122D0FB00D57309 /* Cook.m */; };
+		CDDEDD122122D17D00D57309 /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDEDD112122D17D00D57309 /* Command.m */; };
+		CDDEDD152122D26200D57309 /* LobsterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDEDD142122D26200D57309 /* LobsterCommand.m */; };
+		CDDEDD182122D2AB00D57309 /* AbaloneCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDEDD172122D2AB00D57309 /* AbaloneCommand.m */; };
+		CDDEDD1A2122D31200D57309 /* CommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDEDD192122D31200D57309 /* CommandTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +83,7 @@
 		CD409C032109D65E00B647AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD409C042109D65E00B647AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CD409C0A2109D65E00B647AE /* FactoryMethedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FactoryMethedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD409C0E2109D65E00B647AE /* FactoryMethedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryMethedTests.m; sourceTree = "<group>"; };
+		CD409C0E2109D65E00B647AE /* ChainOfResponsibility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainOfResponsibility.m; sourceTree = "<group>"; };
 		CD409C102109D65E00B647AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CD409C5B2109D86500B647AE /* FactoryMethed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FactoryMethed-Prefix.pch"; sourceTree = "<group>"; };
 		CD409C5E2109D8A100B647AE /* UIMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMacros.h; sourceTree = "<group>"; };
@@ -133,6 +143,27 @@
 		CD4CD5F2211D4078009ABDAF /* BaseTableViewCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCellModel.m; sourceTree = "<group>"; };
 		CD4CD5F3211D4078009ABDAF /* BaseTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewDelegate.h; sourceTree = "<group>"; };
 		CD4CD5F4211D4078009ABDAF /* BaseTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewDelegate.m; sourceTree = "<group>"; };
+		CDDEDCFB2122C64C00D57309 /* Leave.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Leave.h; sourceTree = "<group>"; };
+		CDDEDCFC2122C6A700D57309 /* Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
+		CDDEDCFD2122C6A700D57309 /* Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
+		CDDEDCFF2122C6EE00D57309 /* CEO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CEO.h; sourceTree = "<group>"; };
+		CDDEDD002122C6EE00D57309 /* CEO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CEO.m; sourceTree = "<group>"; };
+		CDDEDD022122C72B00D57309 /* CTO.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTO.h; sourceTree = "<group>"; };
+		CDDEDD032122C72B00D57309 /* CTO.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTO.m; sourceTree = "<group>"; };
+		CDDEDD052122C74700D57309 /* PM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PM.h; sourceTree = "<group>"; };
+		CDDEDD062122C74700D57309 /* PM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PM.m; sourceTree = "<group>"; };
+		CDDEDD092122CC8D00D57309 /* CommandProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommandProtocol.h; sourceTree = "<group>"; };
+		CDDEDD0A2122CD0700D57309 /* Waiter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Waiter.h; sourceTree = "<group>"; };
+		CDDEDD0B2122CD0700D57309 /* Waiter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Waiter.m; sourceTree = "<group>"; };
+		CDDEDD0D2122D0FB00D57309 /* Cook.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cook.h; sourceTree = "<group>"; };
+		CDDEDD0E2122D0FB00D57309 /* Cook.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Cook.m; sourceTree = "<group>"; };
+		CDDEDD102122D17D00D57309 /* Command.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		CDDEDD112122D17D00D57309 /* Command.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		CDDEDD132122D26200D57309 /* LobsterCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LobsterCommand.h; sourceTree = "<group>"; };
+		CDDEDD142122D26200D57309 /* LobsterCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LobsterCommand.m; sourceTree = "<group>"; };
+		CDDEDD162122D2AB00D57309 /* AbaloneCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbaloneCommand.h; sourceTree = "<group>"; };
+		CDDEDD172122D2AB00D57309 /* AbaloneCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbaloneCommand.m; sourceTree = "<group>"; };
+		CDDEDD192122D31200D57309 /* CommandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +214,7 @@
 		CD409BF42109D65800B647AE /* FactoryMethed */ = {
 			isa = PBXGroup;
 			children = (
+				CDDEDCF92122C5F600D57309 /* DesignPatterns */,
 				CD4CD5CA211D4061009ABDAF /* Base */,
 				CD409C602109DD4800B647AE /* VC */,
 				CD409C5F2109D90000B647AE /* AppDelegate */,
@@ -199,7 +231,8 @@
 		CD409C0D2109D65E00B647AE /* FactoryMethedTests */ = {
 			isa = PBXGroup;
 			children = (
-				CD409C0E2109D65E00B647AE /* FactoryMethedTests.m */,
+				CD409C0E2109D65E00B647AE /* ChainOfResponsibility.m */,
+				CDDEDD192122D31200D57309 /* CommandTests.m */,
 				CD409C102109D65E00B647AE /* Info.plist */,
 			);
 			path = FactoryMethedTests;
@@ -424,6 +457,49 @@
 			path = ShineVC;
 			sourceTree = "<group>";
 		};
+		CDDEDCF92122C5F600D57309 /* DesignPatterns */ = {
+			isa = PBXGroup;
+			children = (
+				CDDEDD082122CC6A00D57309 /* Command */,
+				CDDEDCFA2122C61100D57309 /* ChainOfResponsibility */,
+			);
+			path = DesignPatterns;
+			sourceTree = "<group>";
+		};
+		CDDEDCFA2122C61100D57309 /* ChainOfResponsibility */ = {
+			isa = PBXGroup;
+			children = (
+				CDDEDCFB2122C64C00D57309 /* Leave.h */,
+				CDDEDCFC2122C6A700D57309 /* Manager.h */,
+				CDDEDCFD2122C6A700D57309 /* Manager.m */,
+				CDDEDCFF2122C6EE00D57309 /* CEO.h */,
+				CDDEDD002122C6EE00D57309 /* CEO.m */,
+				CDDEDD022122C72B00D57309 /* CTO.h */,
+				CDDEDD032122C72B00D57309 /* CTO.m */,
+				CDDEDD052122C74700D57309 /* PM.h */,
+				CDDEDD062122C74700D57309 /* PM.m */,
+			);
+			path = ChainOfResponsibility;
+			sourceTree = "<group>";
+		};
+		CDDEDD082122CC6A00D57309 /* Command */ = {
+			isa = PBXGroup;
+			children = (
+				CDDEDD092122CC8D00D57309 /* CommandProtocol.h */,
+				CDDEDD0A2122CD0700D57309 /* Waiter.h */,
+				CDDEDD0B2122CD0700D57309 /* Waiter.m */,
+				CDDEDD0D2122D0FB00D57309 /* Cook.h */,
+				CDDEDD0E2122D0FB00D57309 /* Cook.m */,
+				CDDEDD102122D17D00D57309 /* Command.h */,
+				CDDEDD112122D17D00D57309 /* Command.m */,
+				CDDEDD132122D26200D57309 /* LobsterCommand.h */,
+				CDDEDD142122D26200D57309 /* LobsterCommand.m */,
+				CDDEDD162122D2AB00D57309 /* AbaloneCommand.h */,
+				CDDEDD172122D2AB00D57309 /* AbaloneCommand.m */,
+			);
+			path = Command;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -535,30 +611,39 @@
 				CD409BFA2109D65800B647AE /* ViewController.m in Sources */,
 				CD0531C8210F039800740A4B /* EasyAlert.m in Sources */,
 				CD4CD604211D4078009ABDAF /* BaseTitleTextFieldCellModel.m in Sources */,
+				CDDEDD012122C6EE00D57309 /* CEO.m in Sources */,
 				CD409C6A210AB76200B647AE /* FMImageTableViewCellModel.m in Sources */,
 				CD4CD5BC211C2D2E009ABDAF /* TView.m in Sources */,
+				CDDEDD042122C72B00D57309 /* CTO.m in Sources */,
 				CD4CD601211D4078009ABDAF /* BaseTitleSwitchCellModel.m in Sources */,
 				CD4CD5C3211D2E6E009ABDAF /* RunLblViewController.m in Sources */,
 				CD409C71210AB8BA00B647AE /* FMMainTableViewDelegate.m in Sources */,
+				CDDEDCFE2122C6A700D57309 /* Manager.m in Sources */,
 				CD4CD605211D4078009ABDAF /* BaseTableViewCell.m in Sources */,
 				CD4CD5C8211D30D3009ABDAF /* ShineViewController.m in Sources */,
 				CD4CD5BF211D2985009ABDAF /* RunLabel.m in Sources */,
 				CD4CD5F9211D4078009ABDAF /* BaseTitleBigCell.m in Sources */,
 				CD4CD5B6211BDE5F009ABDAF /* XiaoMing.m in Sources */,
 				CD4CD5F6211D4078009ABDAF /* BasePlaceholerCell.m in Sources */,
+				CDDEDD0F2122D0FB00D57309 /* Cook.m in Sources */,
 				CD4CD5FE211D4078009ABDAF /* BaseTitleIndicatorCellModel.m in Sources */,
 				CD409C75210AEEAA00B647AE /* FMViewModel.m in Sources */,
 				CD4CD5F8211D4078009ABDAF /* BasePlaceholerCellModel.m in Sources */,
+				CDDEDD182122D2AB00D57309 /* AbaloneCommand.m in Sources */,
 				CD409C052109D65E00B647AE /* main.m in Sources */,
 				CD409BF72109D65800B647AE /* AppDelegate.m in Sources */,
 				CD4CD602211D4078009ABDAF /* BaseTitleTextFieldCell.m in Sources */,
+				CDDEDD122122D17D00D57309 /* Command.m in Sources */,
 				CD4CD606211D4078009ABDAF /* BaseTableViewCellModel.m in Sources */,
 				CD4CD5FB211D4078009ABDAF /* BaseTitleBigCellModel.m in Sources */,
 				CD409C6E210AB80500B647AE /* DAUITool.m in Sources */,
 				CD4CD607211D4078009ABDAF /* BaseTableViewDelegate.m in Sources */,
+				CDDEDD152122D26200D57309 /* LobsterCommand.m in Sources */,
 				CD4CD5FC211D4078009ABDAF /* BaseTitleIndicatorCell.m in Sources */,
+				CDDEDD072122C74700D57309 /* PM.m in Sources */,
 				CD409C66210AB38800B647AE /* FMImageTableViewCell.m in Sources */,
 				CD4CD5F5211D4078009ABDAF /* BaseNavigationController.m in Sources */,
+				CDDEDD0C2122CD0700D57309 /* Waiter.m in Sources */,
 				CD4CD5FF211D4078009ABDAF /* BaseTitleSwitchCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -567,7 +652,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD409C0F2109D65E00B647AE /* FactoryMethedTests.m in Sources */,
+				CD409C0F2109D65E00B647AE /* ChainOfResponsibility.m in Sources */,
+				CDDEDD1A2122D31200D57309 /* CommandTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
