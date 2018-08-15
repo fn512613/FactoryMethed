@@ -7,10 +7,10 @@
 //
 
 #import "Command.h"
-
+NSString * const stringConst = @"I am a NSString * const string";
 @implementation Command
 - (void)execute{
-    
+    NSLog(@"%@",stringConst);
 }
 
 - (instancetype)initWithReceiver:(Cook *)cook{

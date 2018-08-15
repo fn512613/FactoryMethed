@@ -57,6 +57,10 @@
 		CDDEDD152122D26200D57309 /* LobsterCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDEDD142122D26200D57309 /* LobsterCommand.m */; };
 		CDDEDD182122D2AB00D57309 /* AbaloneCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDEDD172122D2AB00D57309 /* AbaloneCommand.m */; };
 		CDDEDD1A2122D31200D57309 /* CommandTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDEDD192122D31200D57309 /* CommandTests.m */; };
+		CDDEDD1D2123FE8900D57309 /* PraiseButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDEDD1C2123FE8900D57309 /* PraiseButton.m */; };
+		CDDEDD202123FEE300D57309 /* FireworksView.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDEDD1F2123FEE300D57309 /* FireworksView.m */; };
+		CDDEDD252124092100D57309 /* PraiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDEDD232124092100D57309 /* PraiseViewController.m */; };
+		CDDEDD262124092100D57309 /* PraiseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDDEDD242124092100D57309 /* PraiseViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -164,6 +168,13 @@
 		CDDEDD162122D2AB00D57309 /* AbaloneCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbaloneCommand.h; sourceTree = "<group>"; };
 		CDDEDD172122D2AB00D57309 /* AbaloneCommand.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbaloneCommand.m; sourceTree = "<group>"; };
 		CDDEDD192122D31200D57309 /* CommandTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommandTests.m; sourceTree = "<group>"; };
+		CDDEDD1B2123FE8900D57309 /* PraiseButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PraiseButton.h; sourceTree = "<group>"; };
+		CDDEDD1C2123FE8900D57309 /* PraiseButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PraiseButton.m; sourceTree = "<group>"; };
+		CDDEDD1E2123FEE300D57309 /* FireworksView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FireworksView.h; sourceTree = "<group>"; };
+		CDDEDD1F2123FEE300D57309 /* FireworksView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FireworksView.m; sourceTree = "<group>"; };
+		CDDEDD222124092100D57309 /* PraiseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PraiseViewController.h; sourceTree = "<group>"; };
+		CDDEDD232124092100D57309 /* PraiseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PraiseViewController.m; sourceTree = "<group>"; };
+		CDDEDD242124092100D57309 /* PraiseViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PraiseViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -268,6 +279,7 @@
 		CD409C602109DD4800B647AE /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				CDDEDD21212408F400D57309 /* PraiseVC */,
 				CD4CD609211D5E63009ABDAF /* ShineVC */,
 				CD4CD608211D5E4F009ABDAF /* RunLblVC */,
 				CD409C72210AEE8900B647AE /* ViewModel */,
@@ -292,6 +304,10 @@
 				CD4CD5BB211C2D2E009ABDAF /* TView.m */,
 				CD4CD5BD211D2985009ABDAF /* RunLabel.h */,
 				CD4CD5BE211D2985009ABDAF /* RunLabel.m */,
+				CDDEDD1B2123FE8900D57309 /* PraiseButton.h */,
+				CDDEDD1C2123FE8900D57309 /* PraiseButton.m */,
+				CDDEDD1E2123FEE300D57309 /* FireworksView.h */,
+				CDDEDD1F2123FEE300D57309 /* FireworksView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -500,6 +516,16 @@
 			path = Command;
 			sourceTree = "<group>";
 		};
+		CDDEDD21212408F400D57309 /* PraiseVC */ = {
+			isa = PBXGroup;
+			children = (
+				CDDEDD222124092100D57309 /* PraiseViewController.h */,
+				CDDEDD232124092100D57309 /* PraiseViewController.m */,
+				CDDEDD242124092100D57309 /* PraiseViewController.xib */,
+			);
+			path = PraiseVC;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -588,6 +614,7 @@
 				CD4CD600211D4078009ABDAF /* BaseTitleSwitchCell.xib in Resources */,
 				CD4CD5FA211D4078009ABDAF /* BaseTitleBigCell.xib in Resources */,
 				CD409BFD2109D65800B647AE /* Main.storyboard in Resources */,
+				CDDEDD262124092100D57309 /* PraiseViewController.xib in Resources */,
 				CD4CD603211D4078009ABDAF /* BaseTitleTextFieldCell.xib in Resources */,
 				CD4CD5C4211D2E6E009ABDAF /* RunLblViewController.xib in Resources */,
 				CD409C67210AB38800B647AE /* FMImageTableViewCell.xib in Resources */,
@@ -612,6 +639,7 @@
 				CD0531C8210F039800740A4B /* EasyAlert.m in Sources */,
 				CD4CD604211D4078009ABDAF /* BaseTitleTextFieldCellModel.m in Sources */,
 				CDDEDD012122C6EE00D57309 /* CEO.m in Sources */,
+				CDDEDD252124092100D57309 /* PraiseViewController.m in Sources */,
 				CD409C6A210AB76200B647AE /* FMImageTableViewCellModel.m in Sources */,
 				CD4CD5BC211C2D2E009ABDAF /* TView.m in Sources */,
 				CDDEDD042122C72B00D57309 /* CTO.m in Sources */,
@@ -632,6 +660,7 @@
 				CDDEDD182122D2AB00D57309 /* AbaloneCommand.m in Sources */,
 				CD409C052109D65E00B647AE /* main.m in Sources */,
 				CD409BF72109D65800B647AE /* AppDelegate.m in Sources */,
+				CDDEDD202123FEE300D57309 /* FireworksView.m in Sources */,
 				CD4CD602211D4078009ABDAF /* BaseTitleTextFieldCell.m in Sources */,
 				CDDEDD122122D17D00D57309 /* Command.m in Sources */,
 				CD4CD606211D4078009ABDAF /* BaseTableViewCellModel.m in Sources */,
@@ -645,6 +674,7 @@
 				CD4CD5F5211D4078009ABDAF /* BaseNavigationController.m in Sources */,
 				CDDEDD0C2122CD0700D57309 /* Waiter.m in Sources */,
 				CD4CD5FF211D4078009ABDAF /* BaseTitleSwitchCell.m in Sources */,
+				CDDEDD1D2123FE8900D57309 /* PraiseButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -24,6 +24,10 @@
     info5.title = @"文字闪耀";
     [arr addObject:info5];
     
+    BaseTitleIndicatorCellModel *info6 = [BaseTitleIndicatorCellModel new];
+    info6.title = @"点赞效果";
+    [arr addObject:info6];
+    
     FMImageTableViewCellModel *info = [FMImageTableViewCellModel new];
     info.title = @"支付宝";
     info.image = @"alipay";

@@ -15,7 +15,7 @@
 #import "XiaoMing.h"
 #import "RunLblViewController.h"
 #import "ShineViewController.h"
-
+#import "PraiseViewController.h"
 
 @interface ViewController ()<FMMainTableViewDelegateProtocol>
 
@@ -88,8 +88,10 @@
     }else if (indexPath.row == 1){
         ShineViewController *vc = [[ShineViewController alloc]init];
         [self.navigationController pushViewController:vc animated:true];
+    }else if (indexPath.row == 2){
+        PraiseViewController *vc = [[PraiseViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:true];
     }
-    
 }
 
 - (void)didSelectSwitchItem:(BaseTitleSwitchCellModel *)info{
