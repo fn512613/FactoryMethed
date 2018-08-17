@@ -39,7 +39,28 @@
 
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
-    // Called as part of the transition from the background to the active state; here you can undo many of the changes made on entering the background.
+//    NSString *str = [UIPasteboard generalPasteboard].string;
+//    NSLog(@"%@",str);
+//    if (@available(iOS 10.0, *)) {
+//        if ([UIPasteboard generalPasteboard].hasURLs) {
+//            NSURL *url = [UIPasteboard generalPasteboard].URL;
+//            NSLog(@"%@",url.absoluteString);
+//        }
+//    } else {
+//        NSURL *url = [UIPasteboard generalPasteboard].URL;
+//        NSLog(@"%@",url.absoluteString);
+//    }
+//    if (@available(iOS 10.0, *)) {
+//        if ([UIPasteboard generalPasteboard].hasImages) {
+//            UIImage *image = [UIPasteboard generalPasteboard].image;
+//            
+//        }
+//    } else {
+//        UIImage *image = [UIPasteboard generalPasteboard].image;
+//        NSLog(@"%@",image);
+//        
+//    }
+    
 }
 
 

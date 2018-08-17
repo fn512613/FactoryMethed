@@ -46,9 +46,12 @@
     _explosionCell.lifetime = 0.7f;
     _explosionCell.lifetimeRange = 0.3f;
     _explosionCell.birthRate = 0.f;// 粒子产生系数
-    _explosionCell.velocity = 40.0f;
-    _explosionCell.velocityRange = 10.0f;
-    
+    _explosionCell.velocity = 40.0f;//运动速度的浮动值
+    _explosionCell.velocityRange = 10.0f;//y方向的加速度
+//    _explosionCell.emissionRange = 0.5*M_PI;
+//    _explosionCell.yAcceleration = 2;
+    //抛洒角度的浮动值
+    //自旋转角度范围
     _explosionLayer = [CAEmitterLayer layer];
     _explosionLayer.name = @"emitterLayer";
     _explosionLayer.emitterShape = kCAEmitterLayerCircle;//发射形状

@@ -13,9 +13,11 @@
 #import "FMViewModel.h"
 #import "EasyAlert.h"
 #import "XiaoMing.h"
+
 #import "RunLblViewController.h"
 #import "ShineViewController.h"
 #import "PraiseViewController.h"
+#import "DrawViewController.h"
 
 @interface ViewController ()<FMMainTableViewDelegateProtocol>
 
@@ -91,16 +93,19 @@
     }else if (indexPath.row == 2){
         PraiseViewController *vc = [[PraiseViewController alloc]init];
         [self.navigationController pushViewController:vc animated:true];
+    }else if (indexPath.row == 3){
+        DrawViewController *vc = [[DrawViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:true];
     }
 }
 
 - (void)didSelectSwitchItem:(BaseTitleSwitchCellModel *)info{
     if (info.selected) {
         [self.viewModel addCell:self.delegate.dataSource];
-        [self.tableView insertRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:3 inSection:0]] withRowAnimation:UITableViewRowAnimationTop];
+        [self.tableView insertRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:self.delegate.dataSource.count-1 inSection:0]] withRowAnimation:UITableViewRowAnimationTop];
     }else{
         [self.viewModel delectCell:self.delegate.dataSource];
-        [self.tableView deleteRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:3 inSection:0]] withRowAnimation:UITableViewRowAnimationTop];
+        [self.tableView deleteRowsAtIndexPaths:@[[NSIndexPath indexPathForRow:self.delegate.dataSource.count inSection:0]] withRowAnimation:UITableViewRowAnimationTop];
     }
 
 }

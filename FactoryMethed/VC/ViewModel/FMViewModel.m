@@ -28,6 +28,11 @@
     info6.title = @"点赞效果";
     [arr addObject:info6];
     
+    BaseTitleIndicatorCellModel *info7 = [BaseTitleIndicatorCellModel new];
+    info7.title = @"画线";
+    [arr addObject:info7];
+    
+    
     FMImageTableViewCellModel *info = [FMImageTableViewCellModel new];
     info.title = @"支付宝";
     info.image = @"alipay";
@@ -48,11 +53,11 @@
     BaseTitleTextFieldCellModel *info = [BaseTitleTextFieldCellModel new];
     info.title = @"比例";
     info.placeholder = @"请输入比例";
-    [arr insertObject:info atIndex:3];
+    [arr addObject:info];
 }
 
 - (void)delectCell:(NSMutableArray *)arr{
-    [arr removeObjectAtIndex:3];
+    [arr removeLastObject];
 }
 
 
