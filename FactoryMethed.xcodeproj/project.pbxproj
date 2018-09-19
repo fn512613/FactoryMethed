@@ -8,6 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		CD0531C8210F039800740A4B /* EasyAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = CD0531C7210F039800740A4B /* EasyAlert.m */; };
+		CD2EF2BF213399EE003216F4 /* ProgressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2EF2BD213399EE003216F4 /* ProgressViewController.m */; };
+		CD2EF2C0213399EE003216F4 /* ProgressViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD2EF2BE213399EE003216F4 /* ProgressViewController.xib */; };
+		CD2EF2C621339AC8003216F4 /* SDBallProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2EF2C321339AC8003216F4 /* SDBallProgressView.m */; };
+		CD2EF2C721339AC8003216F4 /* SDBaseProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD2EF2C521339AC8003216F4 /* SDBaseProgressView.m */; };
+		CD30406F21491B26007F08CF /* AlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD30406D21491B26007F08CF /* AlertViewController.m */; };
+		CD30407021491B26007F08CF /* AlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD30406E21491B26007F08CF /* AlertViewController.xib */; };
+		CD30407421491C9B007F08CF /* QPAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD30407221491C9B007F08CF /* QPAlertViewController.m */; };
+		CD30407521491C9B007F08CF /* QPAlertViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD30407321491C9B007F08CF /* QPAlertViewController.xib */; };
 		CD3EF6ED2126D2180045E312 /* DrawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3EF6EB2126D2180045E312 /* DrawViewController.m */; };
 		CD3EF6EE2126D2180045E312 /* DrawViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD3EF6EC2126D2180045E312 /* DrawViewController.xib */; };
 		CD3EF6F22126D5600045E312 /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = CD3EF6F12126D5600045E312 /* LineView.m */; };
@@ -50,6 +58,7 @@
 		CD4CD605211D4078009ABDAF /* BaseTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5F0211D4078009ABDAF /* BaseTableViewCell.m */; };
 		CD4CD606211D4078009ABDAF /* BaseTableViewCellModel.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5F2211D4078009ABDAF /* BaseTableViewCellModel.m */; };
 		CD4CD607211D4078009ABDAF /* BaseTableViewDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4CD5F4211D4078009ABDAF /* BaseTableViewDelegate.m */; };
+		CD64F22C2152340700231E38 /* KTCenterAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD64F22A2152340600231E38 /* KTCenterAnimationController.m */; };
 		CDDEDCFE2122C6A700D57309 /* Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDEDCFD2122C6A700D57309 /* Manager.m */; };
 		CDDEDD012122C6EE00D57309 /* CEO.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDEDD002122C6EE00D57309 /* CEO.m */; };
 		CDDEDD042122C72B00D57309 /* CTO.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDEDD032122C72B00D57309 /* CTO.m */; };
@@ -80,6 +89,19 @@
 /* Begin PBXFileReference section */
 		CD0531C6210F039800740A4B /* EasyAlert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyAlert.h; sourceTree = "<group>"; };
 		CD0531C7210F039800740A4B /* EasyAlert.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyAlert.m; sourceTree = "<group>"; };
+		CD2EF2BC213399EE003216F4 /* ProgressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProgressViewController.h; sourceTree = "<group>"; };
+		CD2EF2BD213399EE003216F4 /* ProgressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProgressViewController.m; sourceTree = "<group>"; };
+		CD2EF2BE213399EE003216F4 /* ProgressViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProgressViewController.xib; sourceTree = "<group>"; };
+		CD2EF2C221339AC8003216F4 /* SDBallProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBallProgressView.h; sourceTree = "<group>"; };
+		CD2EF2C321339AC8003216F4 /* SDBallProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBallProgressView.m; sourceTree = "<group>"; };
+		CD2EF2C421339AC8003216F4 /* SDBaseProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDBaseProgressView.h; sourceTree = "<group>"; };
+		CD2EF2C521339AC8003216F4 /* SDBaseProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDBaseProgressView.m; sourceTree = "<group>"; };
+		CD30406C21491B26007F08CF /* AlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertViewController.h; sourceTree = "<group>"; };
+		CD30406D21491B26007F08CF /* AlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertViewController.m; sourceTree = "<group>"; };
+		CD30406E21491B26007F08CF /* AlertViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertViewController.xib; sourceTree = "<group>"; };
+		CD30407121491C9B007F08CF /* QPAlertViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QPAlertViewController.h; sourceTree = "<group>"; };
+		CD30407221491C9B007F08CF /* QPAlertViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QPAlertViewController.m; sourceTree = "<group>"; };
+		CD30407321491C9B007F08CF /* QPAlertViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QPAlertViewController.xib; sourceTree = "<group>"; };
 		CD3EF6EA2126D2180045E312 /* DrawViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DrawViewController.h; sourceTree = "<group>"; };
 		CD3EF6EB2126D2180045E312 /* DrawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawViewController.m; sourceTree = "<group>"; };
 		CD3EF6EC2126D2180045E312 /* DrawViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrawViewController.xib; sourceTree = "<group>"; };
@@ -156,6 +178,8 @@
 		CD4CD5F2211D4078009ABDAF /* BaseTableViewCellModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewCellModel.m; sourceTree = "<group>"; };
 		CD4CD5F3211D4078009ABDAF /* BaseTableViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTableViewDelegate.h; sourceTree = "<group>"; };
 		CD4CD5F4211D4078009ABDAF /* BaseTableViewDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTableViewDelegate.m; sourceTree = "<group>"; };
+		CD64F22A2152340600231E38 /* KTCenterAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KTCenterAnimationController.m; sourceTree = "<group>"; };
+		CD64F22B2152340600231E38 /* KTCenterAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KTCenterAnimationController.h; sourceTree = "<group>"; };
 		CDDEDCFB2122C64C00D57309 /* Leave.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Leave.h; sourceTree = "<group>"; };
 		CDDEDCFC2122C6A700D57309 /* Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Manager.h; sourceTree = "<group>"; };
 		CDDEDCFD2122C6A700D57309 /* Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
@@ -213,6 +237,43 @@
 				CD0531C7210F039800740A4B /* EasyAlert.m */,
 			);
 			path = Alert;
+			sourceTree = "<group>";
+		};
+		CD2EF2BB213399B9003216F4 /* ProgressVC */ = {
+			isa = PBXGroup;
+			children = (
+				CD2EF2C121339AC8003216F4 /* View */,
+				CD2EF2BC213399EE003216F4 /* ProgressViewController.h */,
+				CD2EF2BD213399EE003216F4 /* ProgressViewController.m */,
+				CD2EF2BE213399EE003216F4 /* ProgressViewController.xib */,
+			);
+			path = ProgressVC;
+			sourceTree = "<group>";
+		};
+		CD2EF2C121339AC8003216F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CD2EF2C221339AC8003216F4 /* SDBallProgressView.h */,
+				CD2EF2C321339AC8003216F4 /* SDBallProgressView.m */,
+				CD2EF2C421339AC8003216F4 /* SDBaseProgressView.h */,
+				CD2EF2C521339AC8003216F4 /* SDBaseProgressView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CD30406B21491A68007F08CF /* AlertVC */ = {
+			isa = PBXGroup;
+			children = (
+				CD30406C21491B26007F08CF /* AlertViewController.h */,
+				CD30406D21491B26007F08CF /* AlertViewController.m */,
+				CD30406E21491B26007F08CF /* AlertViewController.xib */,
+				CD30407121491C9B007F08CF /* QPAlertViewController.h */,
+				CD30407221491C9B007F08CF /* QPAlertViewController.m */,
+				CD30407321491C9B007F08CF /* QPAlertViewController.xib */,
+				CD64F22B2152340600231E38 /* KTCenterAnimationController.h */,
+				CD64F22A2152340600231E38 /* KTCenterAnimationController.m */,
+			);
+			path = AlertVC;
 			sourceTree = "<group>";
 		};
 		CD3EF6E92126D1F20045E312 /* DrawVC */ = {
@@ -311,6 +372,8 @@
 		CD409C602109DD4800B647AE /* VC */ = {
 			isa = PBXGroup;
 			children = (
+				CD30406B21491A68007F08CF /* AlertVC */,
+				CD2EF2BB213399B9003216F4 /* ProgressVC */,
 				CD3EF6E92126D1F20045E312 /* DrawVC */,
 				CDDEDD21212408F400D57309 /* PraiseVC */,
 				CD4CD609211D5E63009ABDAF /* ShineVC */,
@@ -649,17 +712,20 @@
 			files = (
 				CD4CD5F7211D4078009ABDAF /* BasePlaceholerCell.xib in Resources */,
 				CD409C022109D65E00B647AE /* LaunchScreen.storyboard in Resources */,
+				CD30407521491C9B007F08CF /* QPAlertViewController.xib in Resources */,
 				CD4CD5FD211D4078009ABDAF /* BaseTitleIndicatorCell.xib in Resources */,
 				CD3EF6EE2126D2180045E312 /* DrawViewController.xib in Resources */,
 				CD409BFF2109D65E00B647AE /* Assets.xcassets in Resources */,
 				CD4CD5C9211D30D3009ABDAF /* ShineViewController.xib in Resources */,
 				CD4CD600211D4078009ABDAF /* BaseTitleSwitchCell.xib in Resources */,
+				CD2EF2C0213399EE003216F4 /* ProgressViewController.xib in Resources */,
 				CD4CD5FA211D4078009ABDAF /* BaseTitleBigCell.xib in Resources */,
 				CD409BFD2109D65800B647AE /* Main.storyboard in Resources */,
 				CDDEDD262124092100D57309 /* PraiseViewController.xib in Resources */,
 				CD4CD603211D4078009ABDAF /* BaseTitleTextFieldCell.xib in Resources */,
 				CD4CD5C4211D2E6E009ABDAF /* RunLblViewController.xib in Resources */,
 				CD409C67210AB38800B647AE /* FMImageTableViewCell.xib in Resources */,
+				CD30407021491B26007F08CF /* AlertViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -679,6 +745,8 @@
 			files = (
 				CD409BFA2109D65800B647AE /* ViewController.m in Sources */,
 				CD0531C8210F039800740A4B /* EasyAlert.m in Sources */,
+				CD2EF2BF213399EE003216F4 /* ProgressViewController.m in Sources */,
+				CD30406F21491B26007F08CF /* AlertViewController.m in Sources */,
 				CD3EF6F22126D5600045E312 /* LineView.m in Sources */,
 				CD4CD604211D4078009ABDAF /* BaseTitleTextFieldCellModel.m in Sources */,
 				CDDEDD012122C6EE00D57309 /* CEO.m in Sources */,
@@ -687,6 +755,7 @@
 				CD4CD5BC211C2D2E009ABDAF /* TView.m in Sources */,
 				CDDEDD042122C72B00D57309 /* CTO.m in Sources */,
 				CD4CD601211D4078009ABDAF /* BaseTitleSwitchCellModel.m in Sources */,
+				CD64F22C2152340700231E38 /* KTCenterAnimationController.m in Sources */,
 				CD4CD5C3211D2E6E009ABDAF /* RunLblViewController.m in Sources */,
 				CD409C71210AB8BA00B647AE /* FMMainTableViewDelegate.m in Sources */,
 				CDDEDCFE2122C6A700D57309 /* Manager.m in Sources */,
@@ -701,6 +770,7 @@
 				CD4CD5FE211D4078009ABDAF /* BaseTitleIndicatorCellModel.m in Sources */,
 				CD409C75210AEEAA00B647AE /* FMViewModel.m in Sources */,
 				CD4CD5F8211D4078009ABDAF /* BasePlaceholerCellModel.m in Sources */,
+				CD2EF2C621339AC8003216F4 /* SDBallProgressView.m in Sources */,
 				CDDEDD182122D2AB00D57309 /* AbaloneCommand.m in Sources */,
 				CD409C052109D65E00B647AE /* main.m in Sources */,
 				CD409BF72109D65800B647AE /* AppDelegate.m in Sources */,
@@ -711,6 +781,7 @@
 				CD4CD5FB211D4078009ABDAF /* BaseTitleBigCellModel.m in Sources */,
 				CD409C6E210AB80500B647AE /* DAUITool.m in Sources */,
 				CD4CD607211D4078009ABDAF /* BaseTableViewDelegate.m in Sources */,
+				CD30407421491C9B007F08CF /* QPAlertViewController.m in Sources */,
 				CDDEDD152122D26200D57309 /* LobsterCommand.m in Sources */,
 				CD4CD5FC211D4078009ABDAF /* BaseTitleIndicatorCell.m in Sources */,
 				CDDEDD072122C74700D57309 /* PM.m in Sources */,
@@ -719,6 +790,7 @@
 				CDDEDD0C2122CD0700D57309 /* Waiter.m in Sources */,
 				CD4CD5FF211D4078009ABDAF /* BaseTitleSwitchCell.m in Sources */,
 				CDDEDD1D2123FE8900D57309 /* PraiseButton.m in Sources */,
+				CD2EF2C721339AC8003216F4 /* SDBaseProgressView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

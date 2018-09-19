@@ -46,6 +46,13 @@
 }
 
 #pragma mark - BaseTitleSwitchCellDelegate
+
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    if ([self.delegate respondsToSelector:@selector(scrollViewDidScroll:)]) {
+        [self.delegate scrollViewDidScroll:scrollView];
+    }
+}
+
 - (void)didSelectSwitch:(BaseTitleSwitchCellModel *)model{
     if ([self.delegate respondsToSelector:@selector(didSelectSwitchItem:)]) {
         [self.delegate didSelectSwitchItem:model];

@@ -15,6 +15,7 @@
 @end
 
 @protocol FMMainTableViewDelegateProtocol <NSObject>
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView;
 - (void)didSelectItem:(NSIndexPath *)indexPath;
 - (void)didSelectSwitchItem:(BaseTitleSwitchCellModel *)indexPath;
 @end

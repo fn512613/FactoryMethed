@@ -27,10 +27,18 @@
     BaseTitleIndicatorCellModel *info6 = [BaseTitleIndicatorCellModel new];
     info6.title = @"点赞效果";
     [arr addObject:info6];
-    
+
     BaseTitleIndicatorCellModel *info7 = [BaseTitleIndicatorCellModel new];
     info7.title = @"画线";
     [arr addObject:info7];
+
+    BaseTitleIndicatorCellModel *info8 = [BaseTitleIndicatorCellModel new];
+    info8.title = @"进度条";
+    [arr addObject:info8];
+    
+    BaseTitleIndicatorCellModel *info9 = [BaseTitleIndicatorCellModel new];
+    info9.title = @"弹出框";
+    [arr addObject:info9];
     
     
     FMImageTableViewCellModel *info = [FMImageTableViewCellModel new];

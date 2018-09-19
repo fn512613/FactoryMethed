@@ -18,7 +18,8 @@
 #import "ShineViewController.h"
 #import "PraiseViewController.h"
 #import "DrawViewController.h"
-
+#import "ProgressViewController.h"
+#import "AlertViewController.h"
 @interface ViewController ()<FMMainTableViewDelegateProtocol>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -83,6 +84,12 @@
 
 #pragma mark - FMMainTableViewDelegateProtocol
 
+- (void)scrollViewDidScroll:(UIScrollView *)scrollView{
+    CGFloat offsetY = scrollView.contentOffset.y;
+    NSLog(@"%f",offsetY);
+}
+
+
 - (void)didSelectItem:(NSIndexPath *)indexPath{
     if (indexPath.row == 0) {
         RunLblViewController *vc = [[RunLblViewController alloc]init];
@@ -95,6 +102,12 @@
         [self.navigationController pushViewController:vc animated:true];
     }else if (indexPath.row == 3){
         DrawViewController *vc = [[DrawViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:true];
+    }else if (indexPath.row == 4){
+        ProgressViewController *vc = [[ProgressViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:true];
+    }else if (indexPath.row == 5){
+        AlertViewController *vc = [[AlertViewController alloc]init];
         [self.navigationController pushViewController:vc animated:true];
     }
 }
