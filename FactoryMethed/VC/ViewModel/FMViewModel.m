@@ -40,6 +40,10 @@
     info9.title = @"弹出框";
     [arr addObject:info9];
     
+    BaseTitleIndicatorCellModel *info10 = [BaseTitleIndicatorCellModel new];
+    info10.title = @"顶部Toast";
+    [arr addObject:info10];
+    
     
     FMImageTableViewCellModel *info = [FMImageTableViewCellModel new];
     info.title = @"支付宝";

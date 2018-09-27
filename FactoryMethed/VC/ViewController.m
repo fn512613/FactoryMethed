@@ -20,6 +20,9 @@
 #import "DrawViewController.h"
 #import "ProgressViewController.h"
 #import "AlertViewController.h"
+#import "ToastViewController.h"
+
+
 @interface ViewController ()<FMMainTableViewDelegateProtocol>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
@@ -108,6 +111,9 @@
         [self.navigationController pushViewController:vc animated:true];
     }else if (indexPath.row == 5){
         AlertViewController *vc = [[AlertViewController alloc]init];
+        [self.navigationController pushViewController:vc animated:true];
+    }else if (indexPath.row == 6){
+        ToastViewController *vc = [[ToastViewController alloc]init];
         [self.navigationController pushViewController:vc animated:true];
     }
 }
